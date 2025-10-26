@@ -2358,3 +2358,36 @@ Program received signal SIGINT, Interrupt.
 #0  0x08005f04 in ?? ()
 #1  0x08005f0c in ?? ()
 Backtrace stopped: previous frame identical to this frame (corrupt stack?)
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+0x20000044 in pxReadyTasksLists ()
+Breakpoint 1 at 0x8020448: file main.c, line 39.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Breakpoint 1, main () at main.c:39
+Breakpoint 2 at 0x80203fc: file main.c, line 17.
+Continuing.
+halted: PC: 0x0802238c
+
+Breakpoint 2, pwm_task (args=0x0) at main.c:17
+halted: PC: 0x080203fe
+halted: PC: 0x08020400
+halted: PC: 0x08020402
+halted: PC: 0x08020404
+halted: PC: 0x08020406
+halted: PC: 0x08020408
+halted: PC: 0x08022e0c
+$1 = 0x32
+Continuing.
+
+Breakpoint 2, pwm_task (args=0x0) at main.c:17
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+prvIdleTask (pvParameters=0x0) at fse_pb_bsp/rtos/tasks.c:5850
