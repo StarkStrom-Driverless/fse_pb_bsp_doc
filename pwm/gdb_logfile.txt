@@ -1,0 +1,2360 @@
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+An error occurred in Python and then another occurred computing the error message.
+Python Exception <class 'KeyboardInterrupt'>: 
+Python Exception <class 'gdb.error'>: could not connect: Connection timed out.
+fse_pb_bsp/tools/gdbinit:54: Error in sourced command file:
+Error occurred in Python.
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+0x080203e0 in ss_delay (count=0xffffffff) at fse_pb_bsp/ss/inc/ss_delay.h:12
+Breakpoint 1 at 0x8020448: file main.c, line 32.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Breakpoint 1, main () at main.c:32
+halted: PC: 0x08022330
+halted: PC: 0x0802044e
+halted: PC: 0x08020450
+halted: PC: 0x0802045e
+halted: PC: 0x08020460
+halted: PC: 0x08020462
+halted: PC: 0x08020466
+halted: PC: 0x08020468
+halted: PC: 0x08022b28
+ss_pwm_init (pin_id=0xf, frequency=0x2710) at fse_pb_bsp/ss/src/ss_pwm.c:266
+halted: PC: 0x08022b36
+halted: PC: 0x08022b38
+halted: PC: 0x08022b3a
+halted: PC: 0x080221e8
+halted: PC: 0x08022b40
+halted: PC: 0x08022b42
+halted: PC: 0x08022b44
+halted: PC: 0x08022b50
+halted: PC: 0x08022b52
+halted: PC: 0x08022b54
+halted: PC: 0x08022b56
+halted: PC: 0x08022b5a
+halted: PC: 0x08022b5c
+halted: PC: 0x08022b5e
+halted: PC: 0x08022b60
+halted: PC: 0x08022b62
+halted: PC: 0x08022b64
+halted: PC: 0x0802295c
+halted: PC: 0x08022b6a
+halted: PC: 0x08022b6c
+halted: PC: 0x08022b6e
+halted: PC: 0x08022b72
+halted: PC: 0x08022b74
+halted: PC: 0x08022b78
+halted: PC: 0x08022b7a
+halted: PC: 0x08022b7c
+halted: PC: 0x08022b7e
+halted: PC: 0x08022f60
+halted: PC: 0x08022b84
+halted: PC: 0x08022b86
+halted: PC: 0x0802284c
+halted: PC: 0x08022b8c
+halted: PC: 0x08022b8e
+halted: PC: 0x08022b90
+halted: PC: 0x08022b9c
+halted: PC: 0x08022b9e
+halted: PC: 0x08022ba0
+halted: PC: 0x0802273c
+halted: PC: 0x08022ba6
+halted: PC: 0x08022ba8
+halted: PC: 0x08022baa
+halted: PC: 0x08022bb0
+halted: PC: 0x08022bb2
+halted: PC: 0x08022bb4
+halted: PC: 0x08022628
+halted: PC: 0x08022bba
+halted: PC: 0x08022bbc
+halted: PC: 0x08022bbe
+halted: PC: 0x08022bc0
+halted: PC: 0x08022bc2
+halted: PC: 0x08022c5e
+halted: PC: 0x08022c60
+halted: PC: 0x08022c62
+halted: PC: 0x08022c64
+halted: PC: 0x0802046c
+halted: PC: 0x0802046e
+halted: PC: 0x08020470
+halted: PC: 0x08020472
+halted: PC: 0x08020474
+halted: PC: 0x08020476
+halted: PC: 0x0802047a
+halted: PC: 0x0802047c
+halted: PC: 0x08022b28
+halted: PC: 0x08020482
+halted: PC: 0x08020484
+halted: PC: 0x080204c4
+
+Program received signal SIGINT, Interrupt.
+0x080203d0 in ss_delay (count=0x0) at fse_pb_bsp/ss/inc/ss_delay.h:9
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+0x080203d0 in ss_delay (count=0x0) at fse_pb_bsp/ss/inc/ss_delay.h:9
+Breakpoint 1 at 0x8020448: file main.c, line 32.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Breakpoint 1, main () at main.c:32
+halted: PC: 0x08022330
+halted: PC: 0x0802044e
+halted: PC: 0x08020450
+halted: PC: 0x0802045e
+halted: PC: 0x08020460
+halted: PC: 0x08020462
+halted: PC: 0x08020466
+halted: PC: 0x08020468
+halted: PC: 0x08022b28
+ss_pwm_init (pin_id=0xf, frequency=0x2710) at fse_pb_bsp/ss/src/ss_pwm.c:266
+halted: PC: 0x08022b36
+halted: PC: 0x08022b38
+halted: PC: 0x08022b3a
+halted: PC: 0x080221e8
+halted: PC: 0x08022b40
+halted: PC: 0x08022b42
+halted: PC: 0x08022b44
+halted: PC: 0x08022b50
+halted: PC: 0x08022b52
+halted: PC: 0x08022b54
+halted: PC: 0x08022b56
+halted: PC: 0x08022b5a
+halted: PC: 0x08022b5c
+halted: PC: 0x08022b5e
+halted: PC: 0x08022b60
+halted: PC: 0x08022b62
+halted: PC: 0x08022b64
+halted: PC: 0x0802295c
+halted: PC: 0x08022b6a
+halted: PC: 0x08022b6c
+halted: PC: 0x08022b6e
+halted: PC: 0x08022b72
+halted: PC: 0x08022b74
+halted: PC: 0x08022b78
+halted: PC: 0x08022b7a
+halted: PC: 0x08022b7c
+halted: PC: 0x08022b7e
+halted: PC: 0x08022f60
+halted: PC: 0x08022b84
+halted: PC: 0x08022b86
+halted: PC: 0x0802284c
+halted: PC: 0x08022b8c
+halted: PC: 0x08022b8e
+halted: PC: 0x08022b90
+halted: PC: 0x08022b9c
+halted: PC: 0x08022b9e
+halted: PC: 0x08022ba0
+halted: PC: 0x0802273c
+halted: PC: 0x08022ba6
+halted: PC: 0x08022ba8
+halted: PC: 0x08022baa
+halted: PC: 0x08022bb0
+halted: PC: 0x08022bb2
+halted: PC: 0x08022bb4
+halted: PC: 0x08022628
+halted: PC: 0x08022bba
+halted: PC: 0x08022bbc
+halted: PC: 0x08022bbe
+halted: PC: 0x08022bc0
+halted: PC: 0x08022bc2
+halted: PC: 0x08022c5e
+The history is empty.
+#0  ss_pwm_init (pin_id=0xf, frequency=0x2710) at fse_pb_bsp/ss/src/ss_pwm.c:304
+#1  0x0802046c in main () at main.c:34
+halted: PC: 0x08022c60
+halted: PC: 0x08022c62
+halted: PC: 0x08022c64
+halted: PC: 0x0802046c
+halted: PC: 0x0802046e
+halted: PC: 0x08020470
+halted: PC: 0x08020472
+halted: PC: 0x08020474
+halted: PC: 0x08020476
+halted: PC: 0x0802047a
+halted: PC: 0x0802047c
+halted: PC: 0x08022b28
+ss_pwm_init (pin_id=0xf, frequency=0x2710) at fse_pb_bsp/ss/src/ss_pwm.c:266
+halted: PC: 0x08022b36
+halted: PC: 0x08022b38
+halted: PC: 0x08022b3a
+halted: PC: 0x080221e8
+halted: PC: 0x08022b40
+halted: PC: 0x08022b42
+halted: PC: 0x08022b44
+halted: PC: 0x08022b50
+halted: PC: 0x08022b52
+halted: PC: 0x08022b54
+halted: PC: 0x08022b56
+halted: PC: 0x08022b5a
+halted: PC: 0x08022b5c
+halted: PC: 0x08022b5e
+halted: PC: 0x08022b60
+halted: PC: 0x08022b62
+halted: PC: 0x08022b64
+halted: PC: 0x0802295c
+halted: PC: 0x08022b6a
+halted: PC: 0x08022b6c
+halted: PC: 0x08022b6e
+halted: PC: 0x08022b72
+halted: PC: 0x08022b74
+halted: PC: 0x08022b78
+halted: PC: 0x08022b7a
+halted: PC: 0x08022b7c
+halted: PC: 0x08022b7e
+halted: PC: 0x08022f60
+halted: PC: 0x08022b84
+halted: PC: 0x08022b86
+halted: PC: 0x0802284c
+halted: PC: 0x08022b8c
+halted: PC: 0x08022b8e
+halted: PC: 0x08022b90
+halted: PC: 0x08022b9c
+halted: PC: 0x08022b9e
+halted: PC: 0x08022ba0
+halted: PC: 0x0802273c
+halted: PC: 0x08022ba6
+halted: PC: 0x08022ba8
+halted: PC: 0x08022baa
+halted: PC: 0x08022bb0
+halted: PC: 0x08022bb2
+halted: PC: 0x08022bb4
+halted: PC: 0x08022628
+halted: PC: 0x08022bba
+halted: PC: 0x08022bbc
+halted: PC: 0x08022bbe
+halted: PC: 0x08022bc0
+halted: PC: 0x08022bc2
+halted: PC: 0x08022c5e
+halted: PC: 0x08022c60
+halted: PC: 0x08022c62
+halted: PC: 0x08022c64
+halted: PC: 0x08020480
+halted: PC: 0x08020482
+halted: PC: 0x08020484
+halted: PC: 0x080204c4
+ss_init_error (feedback=0x20050) at main.c:49
+$1 = 0x20050
+halted: PC: 0x080204ce
+halted: PC: 0x080204d0
+halted: PC: 0x080204d2
+halted: PC: 0x080204d4
+halted: PC: 0x080204d6
+No symbol "err" in current context.
+$2 = 0x50
+$3 = 0x2
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+An error occurred in Python and then another occurred computing the error message.
+Python Exception <class 'KeyboardInterrupt'>: 
+Python Exception <class 'gdb.error'>: could not connect: Connection timed out.
+fse_pb_bsp/tools/gdbinit:54: Error in sourced command file:
+Error occurred in Python.
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+ss_io_write (pin_id=0x20, value=0x2) at fse_pb_bsp/ss/src/ss_gpio.c:50
+Breakpoint 1 at 0x8020448: file main.c, line 32.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Breakpoint 1, main () at main.c:32
+halted: PC: 0x08022330
+halted: PC: 0x0802044e
+halted: PC: 0x08020450
+halted: PC: 0x0802045e
+halted: PC: 0x08020460
+halted: PC: 0x08020462
+halted: PC: 0x08020466
+halted: PC: 0x08020468
+halted: PC: 0x08022b28
+ss_pwm_init (pin_id=0xf, frequency=0x2710) at fse_pb_bsp/ss/src/ss_pwm.c:266
+halted: PC: 0x08022b36
+halted: PC: 0x08022b38
+halted: PC: 0x08022b3a
+halted: PC: 0x080221e8
+halted: PC: 0x08022b40
+halted: PC: 0x08022b42
+halted: PC: 0x08022b44
+halted: PC: 0x08022b50
+halted: PC: 0x08022b52
+halted: PC: 0x08022b54
+halted: PC: 0x08022b56
+halted: PC: 0x08022b5a
+halted: PC: 0x08022b5c
+halted: PC: 0x08022b5e
+halted: PC: 0x08022b60
+halted: PC: 0x08022b62
+halted: PC: 0x08022b64
+halted: PC: 0x0802295c
+halted: PC: 0x08022b6a
+halted: PC: 0x08022b6c
+halted: PC: 0x08022b6e
+halted: PC: 0x08022b72
+halted: PC: 0x08022b74
+halted: PC: 0x08022b78
+halted: PC: 0x08022b7a
+halted: PC: 0x08022b7c
+halted: PC: 0x08022b7e
+halted: PC: 0x08022f60
+halted: PC: 0x08022b84
+halted: PC: 0x08022b86
+halted: PC: 0x0802284c
+halted: PC: 0x08022b8c
+$1 = 0x0
+halted: PC: 0x08022b8e
+halted: PC: 0x08022b90
+halted: PC: 0x08022b9c
+halted: PC: 0x08022b9e
+halted: PC: 0x08022ba0
+halted: PC: 0x0802273c
+halted: PC: 0x08022ba6
+$2 = 0x40000000
+halted: PC: 0x08022ba8
+halted: PC: 0x08022baa
+halted: PC: 0x08022bb0
+halted: PC: 0x08022bb2
+halted: PC: 0x08022bb4
+halted: PC: 0x08022628
+halted: PC: 0x08022bba
+$3 = 0x0
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+ss_pwm_init (pin_id=0xf, frequency=0x2710) at fse_pb_bsp/ss/src/ss_pwm.c:278
+Breakpoint 1 at 0x8020448: file main.c, line 32.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Breakpoint 1, main () at main.c:32
+halted: PC: 0x08022330
+halted: PC: 0x0802044e
+halted: PC: 0x08020450
+halted: PC: 0x0802045e
+halted: PC: 0x08020460
+halted: PC: 0x08020462
+halted: PC: 0x08020466
+halted: PC: 0x08020468
+halted: PC: 0x08022b28
+ss_pwm_init (pin_id=0xf, frequency=0x2710) at fse_pb_bsp/ss/src/ss_pwm.c:266
+halted: PC: 0x08022b36
+halted: PC: 0x08022b38
+halted: PC: 0x08022b3a
+halted: PC: 0x080221e8
+halted: PC: 0x08022b40
+halted: PC: 0x08022b42
+halted: PC: 0x08022b44
+halted: PC: 0x08022b50
+halted: PC: 0x08022b52
+halted: PC: 0x08022b54
+halted: PC: 0x08022b56
+halted: PC: 0x08022b5a
+halted: PC: 0x08022b5c
+halted: PC: 0x08022b5e
+halted: PC: 0x08022b60
+halted: PC: 0x08022b62
+halted: PC: 0x08022b64
+halted: PC: 0x0802295c
+halted: PC: 0x08022b6a
+halted: PC: 0x08022b6c
+halted: PC: 0x08022b6e
+halted: PC: 0x08022b72
+halted: PC: 0x08022b74
+halted: PC: 0x08022b78
+halted: PC: 0x08022b7a
+halted: PC: 0x08022b7c
+halted: PC: 0x08022b7e
+halted: PC: 0x08022f60
+halted: PC: 0x08022b84
+halted: PC: 0x08022b86
+halted: PC: 0x0802284c
+halted: PC: 0x08022b8c
+halted: PC: 0x08022b8e
+halted: PC: 0x08022b90
+halted: PC: 0x08022b9c
+halted: PC: 0x08022b9e
+halted: PC: 0x08022ba0
+halted: PC: 0x0802273c
+halted: PC: 0x08022ba6
+halted: PC: 0x08022ba8
+halted: PC: 0x08022baa
+halted: PC: 0x08022bb0
+halted: PC: 0x08022bb2
+halted: PC: 0x08022bb4
+halted: PC: 0x08022628
+ss_get_timer_channel_from_pin_id (pin_id=0xf) at fse_pb_bsp/ss/src/ss_pwm.c:11
+halted: PC: 0x08022634
+halted: PC: 0x08022636
+halted: PC: 0x08022638
+halted: PC: 0x0802263a
+halted: PC: 0x0802263c
+halted: PC: 0x0802263e
+halted: PC: 0x08022640
+halted: PC: 0x08022642
+halted: PC: 0x08022704
+halted: PC: 0x08022706
+halted: PC: 0x08022708
+halted: PC: 0x0802270a
+halted: PC: 0x08022694
+halted: PC: 0x08022696
+halted: PC: 0x08022698
+halted: PC: 0x0802269a
+halted: PC: 0x0802269c
+halted: PC: 0x0802269e
+halted: PC: 0x080226a0
+halted: PC: 0x080226a2
+halted: PC: 0x080226a4
+halted: PC: 0x080226a6
+halted: PC: 0x080226a8
+halted: PC: 0x080226aa
+halted: PC: 0x080226ac
+halted: PC: 0x080226b0
+halted: PC: 0x080226b2
+halted: PC: 0x080226b4
+halted: PC: 0x080226b6
+halted: PC: 0x080226b8
+halted: PC: 0x080226ba
+halted: PC: 0x080226bc
+halted: PC: 0x080226be
+halted: PC: 0x080226c2
+halted: PC: 0x080226c4
+halted: PC: 0x080226c6
+halted: PC: 0x080226c8
+halted: PC: 0x080226ca
+halted: PC: 0x080226cc
+halted: PC: 0x080226ce
+halted: PC: 0x0802270e
+halted: PC: 0x08022710
+halted: PC: 0x08022712
+$1 = 0x0
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+0x08021020 in prvCheckTasksWaitingTermination () at fse_pb_bsp/rtos/tasks.c:6172
+Breakpoint 1 at 0x8020448: file main.c, line 32.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Program received signal SIGINT, Interrupt.
+0x08005f04 in ?? ()
+Note: breakpoint 1 also set at pc 0x8020448.
+Breakpoint 2 at 0x8020448: file main.c, line 32.
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x08005f04 in ?? ()
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+0x08005f04 in ?? ()
+Breakpoint 1 at 0x8020448: file main.c, line 32.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Breakpoint 1, main () at main.c:32
+halted: PC: 0x08022330
+halted: PC: 0x0802044e
+halted: PC: 0x08020450
+halted: PC: 0x0802045e
+halted: PC: 0x08020460
+halted: PC: 0x08020462
+halted: PC: 0x08020466
+halted: PC: 0x08020468
+halted: PC: 0x08022c08
+halted: PC: 0x0802046e
+halted: PC: 0x08020470
+halted: PC: 0x08020488
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+blocking_handler () at ../../cm3/vector.c:104
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+blocking_handler () at ../../cm3/vector.c:104
+Breakpoint 1 at 0x8020448: file main.c, line 32.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Breakpoint 1, main () at main.c:32
+Breakpoint 2 at 0x80203f4: file main.c, line 6.
+Continuing.
+halted: PC: 0x08022330
+
+Program received signal SIGINT, Interrupt.
+blocking_handler () at ../../cm3/vector.c:104
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+blocking_handler () at ../../cm3/vector.c:104
+#0  blocking_handler () at ../../cm3/vector.c:104
+#1  <signal handler called>
+#2  0xca0257f4 in ?? ()
+#3  <signal handler called>
+#4  0x080217b8 in prvPortStartFirstTask () at fse_pb_bsp/rtos/portable/GCC/ARM_CM4F/port.c:284
+#5  0x0802180c in xPortStartScheduler () at fse_pb_bsp/rtos/portable/GCC/ARM_CM4F/port.c:451
+Backtrace stopped: previous frame inner to this frame (corrupt stack?)
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+blocking_handler () at ../../cm3/vector.c:104
+Breakpoint 1 at 0x8020448: file main.c, line 32.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Breakpoint 1, main () at main.c:32
+halted: PC: 0x08022330
+halted: PC: 0x0802044e
+halted: PC: 0x08020450
+halted: PC: 0x0802045e
+halted: PC: 0x08020460
+halted: PC: 0x08020462
+halted: PC: 0x08020466
+halted: PC: 0x08020468
+halted: PC: 0x08022c08
+halted: PC: 0x0802046e
+halted: PC: 0x08020470
+halted: PC: 0x08020488
+halted: PC: 0x0802048a
+halted: PC: 0x0802048c
+halted: PC: 0x0802048e
+halted: PC: 0x08020490
+halted: PC: 0x08022e0e
+halted: PC: 0x08020496
+halted: PC: 0x08020498
+halted: PC: 0x080204ae
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+prvIdleTask (pvParameters=0x0) at fse_pb_bsp/rtos/tasks.c:5826
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x0802101c in prvCheckTasksWaitingTermination () at fse_pb_bsp/rtos/tasks.c:6172
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+prvIdleTask (pvParameters=0x0) at fse_pb_bsp/rtos/tasks.c:5850
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x0802101a in prvCheckTasksWaitingTermination () at fse_pb_bsp/rtos/tasks.c:6172
+halted: PC: 0x0802101c
+halted: PC: 0x08021020
+halted: PC: 0x08020f84
+prvIdleTask (pvParameters=0x0) at fse_pb_bsp/rtos/tasks.c:5850
+halted: PC: 0x08020f86
+halted: PC: 0x08020f88
+halted: PC: 0x08020f8a
+halted: PC: 0x08020f80
+halted: PC: 0x08021014
+halted: PC: 0x08020f86
+halted: PC: 0x08020f88
+halted: PC: 0x08020f8a
+halted: PC: 0x08020f80
+halted: PC: 0x08021014
+halted: PC: 0x08020f86
+halted: PC: 0x08020f88
+halted: PC: 0x08020f8a
+halted: PC: 0x08020f80
+halted: PC: 0x08021014
+halted: PC: 0x08020f86
+halted: PC: 0x08020f88
+halted: PC: 0x08020f8a
+halted: PC: 0x08020f80
+halted: PC: 0x08021014
+halted: PC: 0x08020f86
+halted: PC: 0x08020f88
+halted: PC: 0x08020f8a
+halted: PC: 0x08020f80
+halted: PC: 0x08021014
+halted: PC: 0x08020f86
+halted: PC: 0x08020f88
+halted: PC: 0x08020f8a
+halted: PC: 0x08020f80
+halted: PC: 0x08021014
+halted: PC: 0x08020f86
+halted: PC: 0x08020f88
+halted: PC: 0x08020f8a
+halted: PC: 0x08020f80
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x0802101c in prvCheckTasksWaitingTermination () at fse_pb_bsp/rtos/tasks.c:6172
+halted: PC: 0x08021020
+halted: PC: 0x08020f84
+prvIdleTask (pvParameters=0x0) at fse_pb_bsp/rtos/tasks.c:5850
+halted: PC: 0x08020f86
+halted: PC: 0x08020f88
+halted: PC: 0x08020f8a
+halted: PC: 0x08020f80
+halted: PC: 0x08021014
+prvCheckTasksWaitingTermination () at fse_pb_bsp/rtos/tasks.c:6172
+halted: PC: 0x0802101a
+halted: PC: 0x0802101c
+halted: PC: 0x08021020
+halted: PC: 0x08020f84
+prvIdleTask (pvParameters=0x0) at fse_pb_bsp/rtos/tasks.c:5850
+halted: PC: 0x08020f86
+halted: PC: 0x08020f88
+halted: PC: 0x08020f8a
+halted: PC: 0x08020f80
+halted: PC: 0x08021014
+halted: PC: 0x08020f86
+halted: PC: 0x08020f88
+halted: PC: 0x08020f8a
+halted: PC: 0x08020f80
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+blocking_handler () at ../../cm3/vector.c:104
+Breakpoint 1 at 0x8020448: file main.c, line 32.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Breakpoint 1, main () at main.c:32
+Continuing.
+halted: PC: 0x08022330
+
+Program received signal SIGINT, Interrupt.
+0x08005f04 in ?? ()
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+0x08005f04 in ?? ()
+Breakpoint 1 at 0x8020448: file main.c, line 32.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Breakpoint 1, main () at main.c:32
+Continuing.
+halted: PC: 0x08022330
+
+Program received signal SIGINT, Interrupt.
+blocking_handler () at ../../cm3/vector.c:104
+#0  blocking_handler () at ../../cm3/vector.c:104
+#1  <signal handler called>
+#2  0x08023372 in timer_set_oc_value (timer_peripheral=0x40000000, oc_id=192, value=0x4d) at ../common/timer_common_all.c:1342
+#3  0x08022e04 in ss_pwm_write (pin_id=0xf, value=0x4d) at fse_pb_bsp/ss/src/ss_pwm.c:415
+#4  0x0802040c in pwm_task (args=0x0) at main.c:10
+#5  0x08021740 in pxPortInitialiseStack (pxTopOfStack=0x4d001741, pxCode=0x0, pvParameters=0x0) at fse_pb_bsp/rtos/portable/GCC/ARM_CM4F/port.c:231
+Backtrace stopped: previous frame identical to this frame (corrupt stack?)
+Continuing.
+
+Breakpoint 1, main () at main.c:32
+Continuing.
+halted: PC: 0x08022330
+
+Program received signal SIGINT, Interrupt.
+blocking_handler () at ../../cm3/vector.c:104
+#0  blocking_handler () at ../../cm3/vector.c:104
+#1  <signal handler called>
+#2  0xca4af7f4 in ?? ()
+#3  <signal handler called>
+#4  0x080217b8 in prvPortStartFirstTask () at fse_pb_bsp/rtos/portable/GCC/ARM_CM4F/port.c:284
+#5  0x0802180c in xPortStartScheduler () at fse_pb_bsp/rtos/portable/GCC/ARM_CM4F/port.c:451
+Backtrace stopped: previous frame inner to this frame (corrupt stack?)
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+0xf850fffc in ?? ()
+Breakpoint 1 at 0x8020454: file main.c, line 38.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Program received signal SIGINT, Interrupt.
+0x08005f04 in ?? ()
+Note: breakpoint 1 also set at pc 0x8020454.
+Breakpoint 2 at 0x8020454: file main.c, line 38.
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x08005f04 in ?? ()
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+0x08005f04 in ?? ()
+Breakpoint 1 at 0x8020454: file main.c, line 38.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Program received signal SIGINT, Interrupt.
+0x08005f04 in ?? ()
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+0x08005f04 in ?? ()
+Breakpoint 1 at 0x8020454: file main.c, line 38.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Program received signal SIGINT, Interrupt.
+0x08005f04 in ?? ()
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+prvIdleTask (pvParameters=0x0) at fse_pb_bsp/rtos/tasks.c:5850
+Breakpoint 1 at 0x8020454: file main.c, line 41.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Breakpoint 1, main () at main.c:41
+Continuing.
+halted: PC: 0x08022370
+
+Program received signal SIGINT, Interrupt.
+blocking_handler () at ../../cm3/vector.c:104
+#0  blocking_handler () at ../../cm3/vector.c:104
+#1  <signal handler called>
+#2  0x00000000 in ?? ()
+#3  0x08021118 in prvAddCurrentTaskToDelayedList (xTicksToWait=0x800196d, xCanBlockIndefinitely=0x20005978) at fse_pb_bsp/rtos/tasks.c:8676
+Backtrace stopped: previous frame inner to this frame (corrupt stack?)
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+prvIdleTask (pvParameters=0x0) at fse_pb_bsp/rtos/tasks.c:5826
+Breakpoint 1 at 0x8020444: file main.c, line 41.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Breakpoint 1, main () at main.c:41
+Continuing.
+halted: PC: 0x08022360
+
+Program received signal SIGINT, Interrupt.
+blocking_handler () at ../../cm3/vector.c:104
+#0  blocking_handler () at ../../cm3/vector.c:104
+#1  <signal handler called>
+#2  0x00000000 in ?? ()
+Backtrace stopped: previous frame identical to this frame (corrupt stack?)
+#0  blocking_handler () at ../../cm3/vector.c:104
+#1  <signal handler called>
+#2  0x00000000 in ?? ()
+Backtrace stopped: previous frame identical to this frame (corrupt stack?)
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+0x0802100a in prvCheckTasksWaitingTermination () at fse_pb_bsp/rtos/tasks.c:6172
+Breakpoint 1 at 0x8020404: file main.c, line 45.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Breakpoint 1, main () at main.c:45
+Continuing.
+halted: PC: 0x08022320
+
+Program received signal SIGINT, Interrupt.
+blocking_handler () at ../../cm3/vector.c:104
+#0  blocking_handler () at ../../cm3/vector.c:104
+#1  <signal handler called>
+#2  0x08021890 in pend_sv_handler () at fse_pb_bsp/rtos/portable/GCC/ARM_CM4F/port.c:508
+#3  <signal handler called>
+#4  vTaskDelay (xTicksToDelay=0x1f4) at fse_pb_bsp/rtos/tasks.c:2501
+#5  0x08022e6c in ss_rtos_delay_ms (delay_ms=0x1f4) at fse_pb_bsp/ss/src/ss_rtos.c:48
+#6  0x080203fc in pwm_task (args=0x0) at main.c:38
+#7  0x08021730 in pxPortInitialiseStack (pxTopOfStack=0x0, pxCode=0x0, pvParameters=0x80203fd <pwm_task+16>) at fse_pb_bsp/rtos/portable/GCC/ARM_CM4F/port.c:231
+Backtrace stopped: previous frame identical to this frame (corrupt stack?)
+0x8020200 <vector_table>:	0x20020000	0x8023329	0x8023327	0x8023325
+0x8020210 <vector_table+16>:	0x8023325	0x8023325	0x8023325	0x0
+0x8020220 <vector_table+32>:	0x0	0x0
+#0  blocking_handler () at ../../cm3/vector.c:104
+#1  <signal handler called>
+#2  0x08021890 in pend_sv_handler () at fse_pb_bsp/rtos/portable/GCC/ARM_CM4F/port.c:508
+#3  <signal handler called>
+#4  vTaskDelay (xTicksToDelay=0x1f4) at fse_pb_bsp/rtos/tasks.c:2501
+#5  0x08022e6c in ss_rtos_delay_ms (delay_ms=0x1f4) at fse_pb_bsp/ss/src/ss_rtos.c:48
+#6  0x080203fc in pwm_task (args=0x0) at main.c:38
+#7  0x08021730 in pxPortInitialiseStack (pxTopOfStack=0x0, pxCode=0x0, pvParameters=0x80203fd <pwm_task+16>) at fse_pb_bsp/rtos/portable/GCC/ARM_CM4F/port.c:231
+Backtrace stopped: previous frame identical to this frame (corrupt stack?)
+$1 = (TCB_t * volatile) 0x200010f0 <ucHeap+4112>
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+0x08005f04 in ?? ()
+Breakpoint 1 at 0x8020404: file main.c, line 45.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Program received signal SIGINT, Interrupt.
+0x08005f04 in ?? ()
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+0x08005f04 in ?? ()
+Breakpoint 1 at 0x8020404: file main.c, line 45.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Program received signal SIGINT, Interrupt.
+0x08005f04 in ?? ()
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+blocking_handler () at ../../cm3/vector.c:104
+Breakpoint 1 at 0x8020404: file main.c, line 45.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Program received signal SIGINT, Interrupt.
+0x08005f04 in ?? ()
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+prvCheckTasksWaitingTermination () at fse_pb_bsp/rtos/tasks.c:6172
+Breakpoint 1 at 0x8020404: file main.c, line 45.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Breakpoint 1, main () at main.c:45
+Continuing.
+halted: PC: 0x08022324
+
+Program received signal SIGINT, Interrupt.
+blocking_handler () at ../../cm3/vector.c:104
+#0  blocking_handler () at ../../cm3/vector.c:104
+#1  <signal handler called>
+#2  0x00000000 in ?? ()
+Backtrace stopped: previous frame identical to this frame (corrupt stack?)
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+blocking_handler () at ../../cm3/vector.c:104
+Breakpoint 1 at 0x8020404: file main.c, line 45.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Program received signal SIGINT, Interrupt.
+0x08005f04 in ?? ()
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+0x08005f04 in ?? ()
+Breakpoint 1 at 0x8020404: file main.c, line 45.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Program received signal SIGINT, Interrupt.
+0x08005f04 in ?? ()
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x08005f04 in ?? ()
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+0x08005f04 in ?? ()
+Breakpoint 1 at 0x8020404: file main.c, line 45.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Breakpoint 1, main () at main.c:45
+target not halted
+target stm32f4x.cpu was not halted when step was requested
+
+Program received signal SIGINT, Interrupt.
+main () at main.c:45
+Continuing.
+halted: PC: 0x08005f04
+
+Breakpoint 1, main () at main.c:45
+halted: PC: 0x08022324
+halted: PC: 0x0802040a
+halted: PC: 0x0802040c
+halted: PC: 0x0802041a
+halted: PC: 0x0802041c
+halted: PC: 0x0802041e
+halted: PC: 0x08020420
+halted: PC: 0x08020422
+halted: PC: 0x080221dc
+halted: PC: 0x08020428
+halted: PC: 0x0802042a
+halted: PC: 0x08020440
+halted: PC: 0x08020442
+halted: PC: 0x08020444
+halted: PC: 0x08020446
+halted: PC: 0x08020448
+halted: PC: 0x08022290
+halted: PC: 0x0802044e
+halted: PC: 0x08020450
+halted: PC: 0x08020454
+halted: PC: 0x08020456
+halted: PC: 0x08022bfc
+halted: PC: 0x0802045c
+halted: PC: 0x0802045e
+halted: PC: 0x08020476
+halted: PC: 0x08020478
+halted: PC: 0x0802047a
+halted: PC: 0x0802047c
+halted: PC: 0x0802047e
+halted: PC: 0x08022d9c
+halted: PC: 0x08020484
+halted: PC: 0x08020486
+halted: PC: 0x0802049c
+halted: PC: 0x08022de0
+
+Program received signal SIGINT, Interrupt.
+0x08021010 in prvCheckTasksWaitingTermination () at fse_pb_bsp/rtos/tasks.c:6172
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+blocking_handler () at ../../cm3/vector.c:104
+#0  blocking_handler () at ../../cm3/vector.c:104
+#1  <signal handler called>
+#2  0x00000000 in ?? ()
+Backtrace stopped: previous frame identical to this frame (corrupt stack?)
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+An error occurred in Python and then another occurred computing the error message.
+Python Exception <class 'KeyboardInterrupt'>: 
+Python Exception <class 'gdb.error'>: could not connect: Connection timed out.
+fse_pb_bsp/tools/gdbinit:54: Error in sourced command file:
+Error occurred in Python.
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+0x08005f04 in ?? ()
+Breakpoint 1 at 0x8020404: file main.c, line 45.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Program received signal SIGINT, Interrupt.
+0x08005f04 in ?? ()
+Continuing.
+
+Breakpoint 1, main () at main.c:45
+halted: PC: 0x08022324
+halted: PC: 0x0802040a
+halted: PC: 0x0802040c
+halted: PC: 0x0802041a
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+blocking_handler () at ../../cm3/vector.c:104
+#0  blocking_handler () at ../../cm3/vector.c:104
+#1  <signal handler called>
+#2  0x00000000 in ?? ()
+Backtrace stopped: previous frame identical to this frame (corrupt stack?)
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+blocking_handler () at ../../cm3/vector.c:104
+Breakpoint 1 at 0x8020404: file main.c, line 45.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Program received signal SIGINT, Interrupt.
+0x08005f04 in ?? ()
+Continuing.
+
+Breakpoint 1, main () at main.c:45
+Quit
+halted: PC: 0x08022324
+halted: PC: 0x0802040a
+halted: PC: 0x0802040c
+halted: PC: 0x0802041a
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+blocking_handler () at ../../cm3/vector.c:104
+#0  blocking_handler () at ../../cm3/vector.c:104
+#1  <signal handler called>
+#2  0xca0217e4 in ?? ()
+#3  <signal handler called>
+#4  0x080217a8 in prvPortStartFirstTask () at fse_pb_bsp/rtos/portable/GCC/ARM_CM4F/port.c:284
+#5  0x080217fc in xPortStartScheduler () at fse_pb_bsp/rtos/portable/GCC/ARM_CM4F/port.c:451
+Backtrace stopped: previous frame inner to this frame (corrupt stack?)
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+prvIdleTask (pvParameters=0x0) at fse_pb_bsp/rtos/tasks.c:5850
+Breakpoint 1 at 0x8020404: file main.c, line 45.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Breakpoint 1, main () at main.c:45
+Continuing.
+halted: PC: 0x0802237c
+
+Program received signal SIGINT, Interrupt.
+0x08020f76 in prvIdleTask (pvParameters=0x0) at fse_pb_bsp/rtos/tasks.c:5850
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+prvIdleTask (pvParameters=0x0) at fse_pb_bsp/rtos/tasks.c:5850
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+warning: Source file is more recent than executable.
+prvIdleTask (pvParameters=0x0) at fse_pb_bsp/rtos/tasks.c:5850
+Breakpoint 1 at 0x8020404: file main.c, line 45.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Breakpoint 1, main () at main.c:45
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+0x08005f04 in ?? ()
+Breakpoint 1 at 0x8020454: file main.c, line 45.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Program received signal SIGINT, Interrupt.
+0x08005f04 in ?? ()
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x08005f04 in ?? ()
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x08005f04 in ?? ()
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+0x08005f04 in ?? ()
+Breakpoint 1 at 0x8020454: file main.c, line 44.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Program received signal SIGINT, Interrupt.
+0x08005f04 in ?? ()
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x08005f04 in ?? ()
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+0x08005f04 in ?? ()
+Breakpoint 1 at 0x8020454: file main.c, line 44.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Program received signal SIGINT, Interrupt.
+0x08005f04 in ?? ()
+Undefined command: "pc".  Try "help".
+$1 = (void (*)()) 0x8005f04
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x08005f04 in ?? ()
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+ss_init () at fse_pb_bsp/ss/src/ss_init.c:13
+Breakpoint 1 at 0x8020454: file main.c, line 46.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Breakpoint 1, main () at main.c:46
+halted: PC: 0x080223c0
+ss_init () at fse_pb_bsp/ss/src/ss_init.c:7
+halted: PC: 0x080223c6
+halted: PC: 0x080223c8
+halted: PC: 0x080223ca
+halted: PC: 0x080223cc
+halted: PC: 0x08021fc8
+halted: PC: 0x08022608
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+0x08005f04 in ?? ()
+Breakpoint 1 at 0x8020454: file main.c, line 46.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Program received signal SIGINT, Interrupt.
+0x08005f04 in ?? ()
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+0x08005f04 in ?? ()
+Breakpoint 1 at 0x8020454: file main.c, line 46.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Program received signal SIGINT, Interrupt.
+0x08005f04 in ?? ()
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x08005f04 in ?? ()
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+ss_init () at fse_pb_bsp/ss/src/ss_init.c:13
+Breakpoint 1 at 0x8020454: file main.c, line 46.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Breakpoint 1, main () at main.c:46
+halted: PC: 0x080223c0
+ss_init () at fse_pb_bsp/ss/src/ss_init.c:7
+halted: PC: 0x080223c6
+halted: PC: 0x080223c8
+halted: PC: 0x080223ca
+halted: PC: 0x080223cc
+halted: PC: 0x08021fc8
+halted: PC: 0x08022608
+halted: PC: 0x080223d6
+halted: PC: 0x080223d4
+halted: PC: 0x080223d6
+halted: PC: 0x080223d4
+halted: PC: 0x080223d6
+halted: PC: 0x080223d4
+halted: PC: 0x080223d6
+halted: PC: 0x080223d4
+halted: PC: 0x080223d6
+halted: PC: 0x080223d4
+halted: PC: 0x080223d6
+halted: PC: 0x080223d4
+halted: PC: 0x080223d6
+halted: PC: 0x080223d4
+halted: PC: 0x080223d6
+halted: PC: 0x080223d4
+halted: PC: 0x080223d6
+halted: PC: 0x080223d4
+halted: PC: 0x080223d6
+halted: PC: 0x080223d4
+halted: PC: 0x080223d6
+halted: PC: 0x080223d4
+halted: PC: 0x080223d6
+halted: PC: 0x080223d4
+halted: PC: 0x080223d6
+halted: PC: 0x080223d4
+halted: PC: 0x080223d6
+halted: PC: 0x080223d4
+halted: PC: 0x080223d6
+halted: PC: 0x080223d4
+halted: PC: 0x080223d6
+halted: PC: 0x080223d4
+halted: PC: 0x080223d6
+halted: PC: 0x080223d4
+halted: PC: 0x080223d6
+halted: PC: 0x080223d4
+halted: PC: 0x080223d6
+halted: PC: 0x080223d4
+halted: PC: 0x080223d6
+halted: PC: 0x080223d4
+halted: PC: 0x080223d6
+halted: PC: 0x080223d4
+halted: PC: 0x080223d6
+halted: PC: 0x080223d4
+halted: PC: 0x080223d6
+halted: PC: 0x080223d4
+halted: PC: 0x080223d6
+halted: PC: 0x080223d4
+halted: PC: 0x080223d6
+halted: PC: 0x080223d4
+halted: PC: 0x080223d6
+halted: PC: 0x080223d4
+halted: PC: 0x080223d6
+halted: PC: 0x080223d4
+halted: PC: 0x080223d6
+halted: PC: 0x080223d4
+halted: PC: 0x080223d6
+halted: PC: 0x080223d4
+halted: PC: 0x080223d6
+
+Program received signal SIGINT, Interrupt.
+0x080223d6 in ss_init () at fse_pb_bsp/ss/src/ss_init.c:13
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+0x0802040a in main () at main.c:48
+Breakpoint 1 at 0x80203f0: file main.c, line 46.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Breakpoint 1, main () at main.c:46
+halted: PC: 0x08021534
+halted: PC: 0x080203f6
+halted: PC: 0x080203f8
+halted: PC: 0x08020408
+halted: PC: 0x0802040a
+halted: PC: 0x08020408
+halted: PC: 0x0802040a
+halted: PC: 0x08020408
+halted: PC: 0x0802040a
+halted: PC: 0x08020408
+halted: PC: 0x0802040a
+halted: PC: 0x08020408
+halted: PC: 0x0802040a
+halted: PC: 0x08020408
+halted: PC: 0x0802040a
+halted: PC: 0x08020408
+halted: PC: 0x0802040a
+halted: PC: 0x08020408
+halted: PC: 0x0802040a
+halted: PC: 0x08020408
+halted: PC: 0x0802040a
+halted: PC: 0x08020408
+halted: PC: 0x0802040a
+halted: PC: 0x08020408
+halted: PC: 0x0802040a
+halted: PC: 0x08020408
+halted: PC: 0x0802040a
+halted: PC: 0x08020408
+halted: PC: 0x0802040a
+halted: PC: 0x08020408
+halted: PC: 0x0802040a
+halted: PC: 0x08020408
+halted: PC: 0x0802040a
+halted: PC: 0x08020408
+halted: PC: 0x0802040a
+halted: PC: 0x08020408
+halted: PC: 0x0802040a
+halted: PC: 0x08020408
+halted: PC: 0x0802040a
+halted: PC: 0x08020408
+halted: PC: 0x0802040a
+halted: PC: 0x08020408
+halted: PC: 0x0802040a
+halted: PC: 0x08020408
+halted: PC: 0x0802040a
+halted: PC: 0x08020408
+halted: PC: 0x0802040a
+halted: PC: 0x08020408
+halted: PC: 0x0802040a
+halted: PC: 0x08020408
+halted: PC: 0x0802040a
+halted: PC: 0x08020408
+halted: PC: 0x0802040a
+halted: PC: 0x08020408
+halted: PC: 0x0802040a
+halted: PC: 0x08020408
+halted: PC: 0x0802040a
+halted: PC: 0x08020408
+halted: PC: 0x0802040a
+halted: PC: 0x08020408
+halted: PC: 0x0802040a
+halted: PC: 0x08020408
+halted: PC: 0x0802040a
+halted: PC: 0x08020408
+halted: PC: 0x0802040a
+halted: PC: 0x08020408
+halted: PC: 0x0802040a
+halted: PC: 0x08020408
+halted: PC: 0x0802040a
+halted: PC: 0x08020408
+halted: PC: 0x0802040a
+halted: PC: 0x08020408
+halted: PC: 0x0802040a
+halted: PC: 0x08020408
+halted: PC: 0x0802040a
+halted: PC: 0x08020408
+halted: PC: 0x0802040a
+halted: PC: 0x08020408
+halted: PC: 0x0802040a
+
+Program received signal SIGINT, Interrupt.
+0x0802040a in main () at main.c:48
+halted: PC: 0x08020408
+halted: PC: 0x0802040a
+halted: PC: 0x08020408
+halted: PC: 0x0802040a
+halted: PC: 0x08020408
+halted: PC: 0x0802040a
+halted: PC: 0x08020408
+halted: PC: 0x0802040a
+halted: PC: 0x08020408
+halted: PC: 0x0802040a
+halted: PC: 0x08020408
+halted: PC: 0x0802040a
+halted: PC: 0x08020408
+halted: PC: 0x0802040a
+halted: PC: 0x08020408
+halted: PC: 0x0802040a
+halted: PC: 0x08020408
+halted: PC: 0x0802040a
+halted: PC: 0x08020408
+halted: PC: 0x0802040a
+halted: PC: 0x08020408
+halted: PC: 0x0802040a
+halted: PC: 0x08020408
+halted: PC: 0x0802040a
+halted: PC: 0x08020408
+halted: PC: 0x0802040a
+halted: PC: 0x08020408
+halted: PC: 0x0802040a
+halted: PC: 0x08020408
+halted: PC: 0x0802040a
+halted: PC: 0x08020408
+halted: PC: 0x0802040a
+halted: PC: 0x08020408
+halted: PC: 0x0802040a
+halted: PC: 0x08020408
+halted: PC: 0x0802040a
+halted: PC: 0x08020408
+
+Program received signal SIGINT, Interrupt.
+0x08020408 in main () at main.c:48
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+0x08020430 in main () at main.c:53
+Breakpoint 1 at 0x80203f0: file main.c, line 46.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Breakpoint 1, main () at main.c:46
+halted: PC: 0x08021560
+halted: PC: 0x080203f6
+halted: PC: 0x080203f8
+halted: PC: 0x08020406
+halted: PC: 0x08020408
+halted: PC: 0x0802040a
+halted: PC: 0x0802040c
+halted: PC: 0x0802040e
+halted: PC: 0x08021418
+halted: PC: 0x08020414
+halted: PC: 0x08020416
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+
+Program received signal SIGINT, Interrupt.
+0x08020430 in main () at main.c:53
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+0x08005f04 in ?? ()
+Breakpoint 1 at 0x8020454: file main.c, line 46.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Program received signal SIGINT, Interrupt.
+0x08005f04 in ?? ()
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x08005f04 in ?? ()
+Cannot find bounds of current function
+Cannot find bounds of current function
+Continuing.
+jtag status contains invalid mode value - communication failure
+
+Program stopped.
+0x08005f04 in ?? ()
+Continuing.
+target not halted
+target stm32f4x.cpu was not halted when resume was requested
+
+Program received signal SIGINT, Interrupt.
+0x08005f04 in ?? ()
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x08005f04 in ?? ()
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+0x08005f04 in ?? ()
+Breakpoint 1 at 0x8020454: file main.c, line 46.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Program received signal SIGINT, Interrupt.
+0x08005f04 in ?? ()
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+0x08020460 in main () at main.c:66
+Breakpoint 1 at 0x80203f0: file main.c, line 45.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Breakpoint 1, main () at main.c:45
+halted: PC: 0x080203f2
+halted: PC: 0x080203f4
+halted: PC: 0x080203f6
+halted: PC: 0x0802159c
+halted: PC: 0x080203fc
+halted: PC: 0x080203fe
+halted: PC: 0x0802040c
+halted: PC: 0x0802040e
+halted: PC: 0x08020410
+halted: PC: 0x08020412
+halted: PC: 0x08020414
+halted: PC: 0x08021454
+halted: PC: 0x0802041a
+halted: PC: 0x0802041c
+halted: PC: 0x08020432
+halted: PC: 0x08020434
+halted: PC: 0x08020436
+halted: PC: 0x0802043a
+halted: PC: 0x0802043c
+halted: PC: 0x08021e6c
+halted: PC: 0x08020442
+halted: PC: 0x08020444
+halted: PC: 0x0802045e
+halted: PC: 0x08020460
+halted: PC: 0x0802045e
+halted: PC: 0x08020460
+halted: PC: 0x0802045e
+halted: PC: 0x08020460
+halted: PC: 0x0802045e
+halted: PC: 0x08020460
+halted: PC: 0x0802045e
+halted: PC: 0x08020460
+halted: PC: 0x0802045e
+halted: PC: 0x08020460
+halted: PC: 0x0802045e
+halted: PC: 0x08020460
+halted: PC: 0x0802045e
+halted: PC: 0x08020460
+halted: PC: 0x0802045e
+halted: PC: 0x08020460
+halted: PC: 0x0802045e
+halted: PC: 0x08020460
+halted: PC: 0x0802045e
+halted: PC: 0x08020460
+halted: PC: 0x0802045e
+halted: PC: 0x08020460
+halted: PC: 0x0802045e
+halted: PC: 0x08020460
+halted: PC: 0x0802045e
+halted: PC: 0x08020460
+halted: PC: 0x0802045e
+halted: PC: 0x08020460
+halted: PC: 0x0802045e
+halted: PC: 0x08020460
+halted: PC: 0x0802045e
+halted: PC: 0x08020460
+halted: PC: 0x0802045e
+halted: PC: 0x08020460
+halted: PC: 0x0802045e
+halted: PC: 0x08020460
+halted: PC: 0x0802045e
+halted: PC: 0x08020460
+halted: PC: 0x0802045e
+halted: PC: 0x08020460
+halted: PC: 0x0802045e
+halted: PC: 0x08020460
+halted: PC: 0x0802045e
+halted: PC: 0x08020460
+halted: PC: 0x0802045e
+halted: PC: 0x08020460
+halted: PC: 0x0802045e
+halted: PC: 0x08020460
+halted: PC: 0x0802045e
+halted: PC: 0x08020460
+halted: PC: 0x0802045e
+halted: PC: 0x08020460
+halted: PC: 0x0802045e
+halted: PC: 0x08020460
+halted: PC: 0x0802045e
+halted: PC: 0x08020460
+halted: PC: 0x0802045e
+halted: PC: 0x08020460
+halted: PC: 0x0802045e
+halted: PC: 0x08020460
+halted: PC: 0x0802045e
+halted: PC: 0x08020460
+halted: PC: 0x0802045e
+halted: PC: 0x08020460
+halted: PC: 0x0802045e
+halted: PC: 0x08020460
+halted: PC: 0x0802045e
+
+Program received signal SIGINT, Interrupt.
+0x0802045e in main () at main.c:66
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+0x080204e8 in main () at main.c:66
+Breakpoint 1 at 0x8020454: file main.c, line 45.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Breakpoint 1, main () at main.c:45
+halted: PC: 0x08020456
+halted: PC: 0x08020458
+halted: PC: 0x0802045a
+halted: PC: 0x08022198
+halted: PC: 0x08020460
+halted: PC: 0x08020462
+halted: PC: 0x08020470
+halted: PC: 0x08020472
+halted: PC: 0x08020474
+halted: PC: 0x08020476
+halted: PC: 0x08020478
+halted: PC: 0x08022050
+halted: PC: 0x0802047e
+halted: PC: 0x08020480
+halted: PC: 0x08020496
+halted: PC: 0x08020498
+halted: PC: 0x0802049a
+halted: PC: 0x0802049e
+halted: PC: 0x080204a0
+halted: PC: 0x08022a68
+halted: PC: 0x080204a6
+halted: PC: 0x080204a8
+halted: PC: 0x080204c0
+halted: PC: 0x080204c2
+halted: PC: 0x080204c4
+halted: PC: 0x080204c6
+halted: PC: 0x080204c8
+halted: PC: 0x08022c08
+halted: PC: 0x080204ce
+halted: PC: 0x080204d0
+halted: PC: 0x080204e8
+halted: PC: 0x080204ea
+halted: PC: 0x080204e8
+halted: PC: 0x080204ea
+halted: PC: 0x080204e8
+halted: PC: 0x080204ea
+halted: PC: 0x080204e8
+halted: PC: 0x080204ea
+halted: PC: 0x080204e8
+halted: PC: 0x080204ea
+halted: PC: 0x080204e8
+halted: PC: 0x080204ea
+halted: PC: 0x080204e8
+halted: PC: 0x080204ea
+halted: PC: 0x080204e8
+halted: PC: 0x080204ea
+halted: PC: 0x080204e8
+halted: PC: 0x080204ea
+halted: PC: 0x080204e8
+halted: PC: 0x080204ea
+halted: PC: 0x080204e8
+halted: PC: 0x080204ea
+halted: PC: 0x080204e8
+halted: PC: 0x080204ea
+halted: PC: 0x080204e8
+halted: PC: 0x080204ea
+halted: PC: 0x080204e8
+halted: PC: 0x080204ea
+halted: PC: 0x080204e8
+halted: PC: 0x080204ea
+halted: PC: 0x080204e8
+halted: PC: 0x080204ea
+halted: PC: 0x080204e8
+halted: PC: 0x080204ea
+halted: PC: 0x080204e8
+halted: PC: 0x080204ea
+halted: PC: 0x080204e8
+halted: PC: 0x080204ea
+halted: PC: 0x080204e8
+halted: PC: 0x080204ea
+halted: PC: 0x080204e8
+halted: PC: 0x080204ea
+halted: PC: 0x080204e8
+halted: PC: 0x080204ea
+halted: PC: 0x080204e8
+halted: PC: 0x080204ea
+halted: PC: 0x080204e8
+halted: PC: 0x080204ea
+halted: PC: 0x080204e8
+halted: PC: 0x080204ea
+halted: PC: 0x080204e8
+halted: PC: 0x080204ea
+halted: PC: 0x080204e8
+halted: PC: 0x080204ea
+halted: PC: 0x080204e8
+halted: PC: 0x080204ea
+halted: PC: 0x080204e8
+halted: PC: 0x080204ea
+halted: PC: 0x080204e8
+halted: PC: 0x080204ea
+halted: PC: 0x080204e8
+halted: PC: 0x080204ea
+halted: PC: 0x080204e8
+halted: PC: 0x080204ea
+halted: PC: 0x080204e8
+halted: PC: 0x080204ea
+
+Program received signal SIGINT, Interrupt.
+0x080204ea in main () at main.c:66
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+0x08005f04 in ?? ()
+Breakpoint 1 at 0x8020454: file main.c, line 45.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Program received signal SIGINT, Interrupt.
+0x08005f04 in ?? ()
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+0x08005f04 in ?? ()
+Breakpoint 1 at 0x8020454: file main.c, line 45.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Program received signal SIGINT, Interrupt.
+0x08005f04 in ?? ()
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x08005f04 in ?? ()
+Undefined command: "reset".  Try "help".
+Undefined command: "reset".  Try "help".
+Undefined command: "reg".  Try "help".
+$1 = (void (*)()) 0x8005f04
+#0  0x08005f04 in ?? ()
+#1  0x08005f0c in ?? ()
+Backtrace stopped: previous frame identical to this frame (corrupt stack?)
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+0x08005f04 in ?? ()
+Breakpoint 1 at 0x8020404: file main.c, line 47.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Program received signal SIGINT, Interrupt.
+0x08005f04 in ?? ()
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+Python Exception <class 'gdb.error'>: Remote communication error.  Target disconnected: error while reading: Connection reset by peer.
+fse_pb_bsp/tools/gdbinit:54: Error in sourced command file:
+Error occurred in Python: Remote communication error.  Target disconnected: error while reading: Connection reset by peer.
+Breakpoint 1 at 0x80236d8: file ../../cm3/vector.c, line 85.
+The program is not being run.
+The program is not being run.
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+An error occurred in Python and then another occurred computing the error message.
+Python Exception <class 'KeyboardInterrupt'>: 
+Python Exception <class 'gdb.error'>: could not connect: Connection timed out.
+fse_pb_bsp/tools/gdbinit:54: Error in sourced command file:
+Error occurred in Python.
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+0x08005f04 in ?? ()
+Breakpoint 1 at 0x8020404: file main.c, line 47.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Program received signal SIGINT, Interrupt.
+0x08005f04 in ?? ()
+Breakpoint 2 at 0x80236d8: file ../../cm3/vector.c, line 85.
+Continuing.
+
+Breakpoint 2, reset_handler () at ../../cm3/vector.c:85
+$1 = (funcp_t *) 0x8023d0c
+$2 = (funcp_t *) 0x8023d0c
+$3 = (funcp_t *) 0x8023d0c
+halted: PC: 0x080236da
+halted: PC: 0x080236dc
+halted: PC: 0x080236de
+halted: PC: 0x080236e0
+halted: PC: 0x080236e2
+halted: PC: 0x080236e4
+halted: PC: 0x08020400
+
+Breakpoint 1, main () at main.c:47
+halted: PC: 0x08020406
+halted: PC: 0x08020408
+halted: PC: 0x0802040a
+halted: PC: 0x08022380
+halted: PC: 0x08020410
+halted: PC: 0x08020412
+halted: PC: 0x08020420
+halted: PC: 0x08020422
+halted: PC: 0x08020424
+halted: PC: 0x08020426
+halted: PC: 0x08020428
+halted: PC: 0x08022238
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x08020446
+halted: PC: 0x08020448
+halted: PC: 0x0802044a
+halted: PC: 0x0802044e
+halted: PC: 0x08020450
+halted: PC: 0x08022c50
+halted: PC: 0x08020456
+halted: PC: 0x08020458
+halted: PC: 0x08020470
+halted: PC: 0x08020472
+halted: PC: 0x08020474
+halted: PC: 0x08020476
+halted: PC: 0x08020478
+halted: PC: 0x08022df0
+halted: PC: 0x0802047e
+halted: PC: 0x08020480
+halted: PC: 0x08020496
+halted: PC: 0x08022e34
+ss_rtos_start () at fse_pb_bsp/ss/src/ss_rtos.c:44
+halted: PC: 0x08020898
+vTaskStartScheduler () at fse_pb_bsp/rtos/tasks.c:3703
+halted: PC: 0x080207ec
+halted: PC: 0x080208a4
+halted: PC: 0x080208a6
+halted: PC: 0x080208a8
+halted: PC: 0x080208aa
+halted: PC: 0x080208ae
+halted: PC: 0x080208b2
+halted: PC: 0x080208b6
+halted: PC: 0x080208ba
+halted: PC: 0x080208bc
+halted: PC: 0x080208be
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x08021014 in prvCheckTasksWaitingTermination () at fse_pb_bsp/rtos/tasks.c:6172
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+prvIdleTask (pvParameters=0x0) at fse_pb_bsp/rtos/tasks.c:5826
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x08021014 in prvCheckTasksWaitingTermination () at fse_pb_bsp/rtos/tasks.c:6172
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+prvIdleTask (pvParameters=0x0) at fse_pb_bsp/rtos/tasks.c:5850
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+0x08005f04 in ?? ()
+Breakpoint 1 at 0x8020454: file main.c, line 47.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Program received signal SIGINT, Interrupt.
+0x08005f04 in ?? ()
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x08005f04 in ?? ()
+Breakpoint 2 at 0x8023728: file ../../cm3/vector.c, line 85.
+Continuing.
+
+Breakpoint 2, reset_handler () at ../../cm3/vector.c:85
+target not halted
+target stm32f4x.cpu was not halted when step was requested
+
+Program received signal SIGINT, Interrupt.
+reset_handler () at ../../cm3/vector.c:85
+Continuing.
+halted: PC: 0x08005f04
+
+Program received signal SIGINT, Interrupt.
+0x08005f04 in ?? ()
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x08020454 in main at main.c:47
+2       breakpoint     keep y   0x08023728 in reset_handler at ../../cm3/vector.c:85
+	breakpoint already hit 1 time
+Note: breakpoint 2 also set at pc 0x8023728.
+Breakpoint 3 at 0x8023728: file ../../cm3/vector.c, line 85.
+Continuing.
+
+Breakpoint 2, reset_handler () at ../../cm3/vector.c:85
+target not halted
+target stm32f4x.cpu was not halted when step was requested
+
+Program received signal SIGINT, Interrupt.
+reset_handler () at ../../cm3/vector.c:85
+Continuing.
+halted: PC: 0x08005f04
+
+Program received signal SIGINT, Interrupt.
+0x08005f04 in ?? ()
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x08005f04 in ?? ()
+Not stopped at any breakpoint; argument ignored.
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x08005f04 in ?? ()
+Breakpoint 4 at 0x80236f4: file ../../cm3/vector.c, line 64.
+Continuing.
+
+Breakpoint 4, reset_handler () at ../../cm3/vector.c:67
+halted: PC: 0x080236f6
+halted: PC: 0x080236f8
+halted: PC: 0x080236fa
+halted: PC: 0x080236fc
+halted: PC: 0x080236fe
+halted: PC: 0x08023742
+halted: PC: 0x08023746
+halted: PC: 0x0802374a
+halted: PC: 0x080236fc
+halted: PC: 0x080236fe
+halted: PC: 0x08023742
+halted: PC: 0x08023746
+halted: PC: 0x0802374a
+halted: PC: 0x080236fc
+halted: PC: 0x080236fe
+halted: PC: 0x08023742
+Breakpoint 5 at 0x8023704: file ../../cm3/vector.c, line 73.
+Continuing.
+
+Breakpoint 5, reset_handler () at ../../cm3/vector.c:73
+halted: PC: 0x08023706
+halted: PC: 0x0802374c
+halted: PC: 0x08023750
+halted: PC: 0x08023704
+
+Breakpoint 5, reset_handler () at ../../cm3/vector.c:73
+halted: PC: 0x08023706
+halted: PC: 0x0802374c
+halted: PC: 0x08023750
+halted: PC: 0x08023704
+
+Breakpoint 5, reset_handler () at ../../cm3/vector.c:73
+Breakpoint 6 at 0x8023708: file ../../cm3/vector.c, line 79.
+Continuing.
+halted: PC: 0x08023706
+
+Breakpoint 5, reset_handler () at ../../cm3/vector.c:73
+Continuing.
+halted: PC: 0x08023706
+
+Breakpoint 5, reset_handler () at ../../cm3/vector.c:73
+Continuing.
+halted: PC: 0x08023706
+
+Breakpoint 5, reset_handler () at ../../cm3/vector.c:73
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x08020454 in main at main.c:47
+2       breakpoint     keep y   0x08023728 in reset_handler at ../../cm3/vector.c:85
+	breakpoint already hit 2 times
+3       breakpoint     keep y   0x08023728 in reset_handler at ../../cm3/vector.c:85
+	breakpoint already hit 1 time
+4       breakpoint     keep y   0x080236f4 in reset_handler at ../../cm3/vector.c:64
+	breakpoint already hit 1 time
+5       breakpoint     keep y   0x08023704 in reset_handler at ../../cm3/vector.c:73
+	breakpoint already hit 6 times
+6       breakpoint     keep y   0x08023708 in reset_handler at ../../cm3/vector.c:79
+Continuing.
+
+Breakpoint 6, reset_handler () at ../../cm3/vector.c:79
+halted: PC: 0x0802370c
+halted: PC: 0x0802370e
+halted: PC: 0x08023712
+halted: PC: 0x08023714
+halted: PC: 0x08023718
+halted: PC: 0x0802371c
+pre_main () at ../../cm3/../dispatch/../stm32/f4/vector_chipset.c:26
+halted: PC: 0x08023720
+halted: PC: 0x08023724
+halted: PC: 0x08023728
+
+Breakpoint 2, reset_handler () at ../../cm3/vector.c:85
+Undefined command: "".  Try "help".
+halted: PC: 0x0802372a
+halted: PC: 0x0802372c
+halted: PC: 0x0802372e
+halted: PC: 0x08023730
+halted: PC: 0x08023732
+halted: PC: 0x08023734
+halted: PC: 0x08020450
+
+Breakpoint 1, main () at main.c:47
+halted: PC: 0x08020456
+halted: PC: 0x08020458
+halted: PC: 0x0802045a
+halted: PC: 0x080223d0
+halted: PC: 0x08020460
+halted: PC: 0x08020462
+halted: PC: 0x08020470
+halted: PC: 0x08020472
+halted: PC: 0x08020474
+halted: PC: 0x08020476
+halted: PC: 0x08020478
+halted: PC: 0x08022288
+halted: PC: 0x0802047e
+halted: PC: 0x08020480
+halted: PC: 0x08020496
+halted: PC: 0x08020498
+halted: PC: 0x0802049a
+halted: PC: 0x0802049e
+halted: PC: 0x080204a0
+halted: PC: 0x08022ca0
+halted: PC: 0x080204a6
+halted: PC: 0x080204a8
+halted: PC: 0x080204c0
+halted: PC: 0x080204c2
+halted: PC: 0x080204c4
+halted: PC: 0x080204c6
+halted: PC: 0x080204c8
+halted: PC: 0x08022e40
+halted: PC: 0x080204ce
+halted: PC: 0x080204d0
+halted: PC: 0x080204e6
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+prvIdleTask (pvParameters=0x0) at fse_pb_bsp/rtos/tasks.c:5850
+Continuing.
+keep_alive() was not invoked in the 1000 ms timelimit. GDB alive packet not sent! (2956716 ms). Workaround: increase "set remotetimeout" in GDB
+
+Program received signal SIGINT, Interrupt.
+prvIdleTask (pvParameters=0x0) at fse_pb_bsp/rtos/tasks.c:5850
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+fse_pb_bsp/tools/gdbinit:21: Error in sourced command file:
+bp_test.elf: No such file or directory.
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+An error occurred in Python and then another occurred computing the error message.
+Python Exception <class 'KeyboardInterrupt'>: 
+Python Exception <class 'gdb.error'>: could not connect: Connection timed out.
+fse_pb_bsp/tools/gdbinit:54: Error in sourced command file:
+Error occurred in Python.
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+An error occurred in Python and then another occurred computing the error message.
+Python Exception <class 'KeyboardInterrupt'>: 
+Python Exception <class 'gdb.error'>: could not connect: Connection timed out.
+fse_pb_bsp/tools/gdbinit:54: Error in sourced command file:
+Error occurred in Python.
+Breakpoint 1 at 0x80236f4: file ../../cm3/vector.c, line 64.
+The program is not being run.
+The program is not being run.
+The program is not being run.
+The program is not being run.
+The program is not being run.
+The program is not being run.
+The program is not being run.
+The program is not being run.
+The program is not being run.
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+0x08005f04 in ?? ()
+Breakpoint 1 at 0x8020454: file main.c, line 50.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Program received signal SIGINT, Interrupt.
+0x08005f04 in ?? ()
+Breakpoint 2 at 0x80236f4: file ../../cm3/vector.c, line 64.
+Continuing.
+
+Breakpoint 2, reset_handler () at ../../cm3/vector.c:67
+Continuing.
+halted: PC: 0x080236f6
+
+Program received signal SIGINT, Interrupt.
+0x08005f04 in ?? ()
+#0  0x08005f04 in ?? ()
+#1  0x08005f0c in ?? ()
+Backtrace stopped: previous frame identical to this frame (corrupt stack?)
