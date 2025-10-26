@@ -1,0 +1,3 @@
+[submodule "blinky/fse_pb_bsp"]
+	path = blinky/fse_pb_bsp
+	url = git@github.com:StarkStrom-Driverless/fse_pb_bsp.git
