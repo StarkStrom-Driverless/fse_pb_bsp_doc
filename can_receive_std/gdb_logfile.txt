@@ -1,0 +1,19 @@
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+prvCheckTasksWaitingTermination () at fse_pb_bsp/rtos/tasks.c:6100
+Breakpoint 1 at 0x8020450: file main.c, line 28.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Breakpoint 1, main () at main.c:28
+Breakpoint 2 at 0x8022236: file fse_pb_bsp/ss/src/ss_can.c, line 27.
+Continuing.
+halted: PC: 0x08022dec
+
+Program received signal SIGINT, Interrupt.
+0x08021134 in prvCheckTasksWaitingTermination () at fse_pb_bsp/rtos/tasks.c:6172

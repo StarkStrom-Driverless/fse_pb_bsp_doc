@@ -10,3 +10,9 @@
 [submodule "adc/fse_pb_bsp"]
 	path = adc/fse_pb_bsp
 	url = git@github.com:StarkStrom-Driverless/fse_pb_bsp.git
+[submodule "can_send/fse_pb_bsp"]
+	path = can_send/fse_pb_bsp
+	url = git@github.com:StarkStrom-Driverless/fse_pb_bsp.git
+[submodule "can_receive_std/fse_pb_bsp"]
+	path = can_receive_std/fse_pb_bsp
+	url = git@github.com:StarkStrom-Driverless/fse_pb_bsp.git
