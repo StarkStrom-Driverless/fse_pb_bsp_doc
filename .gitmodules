@@ -7,3 +7,6 @@
 [submodule "input/fse_pb_bsp"]
 	path = input/fse_pb_bsp
 	url = git@github.com:StarkStrom-Driverless/fse_pb_bsp.git
+[submodule "adc/fse_pb_bsp"]
+	path = adc/fse_pb_bsp
+	url = git@github.com:StarkStrom-Driverless/fse_pb_bsp.git
