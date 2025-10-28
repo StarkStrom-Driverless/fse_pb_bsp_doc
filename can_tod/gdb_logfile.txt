@@ -1,0 +1,30 @@
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+0x20000044 in pxReadyTasksLists ()
+Breakpoint 1 at 0x802048c: file main.c, line 56.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Breakpoint 1, main () at main.c:56
+Breakpoint 2 at 0x8022e4e: file fse_pb_bsp/ss/src/ss_can.c, line 661.
+Continuing.
+halted: PC: 0x08023414
+
+Breakpoint 2, ss_can_tod_check () at fse_pb_bsp/ss/src/ss_can.c:661
+halted: PC: 0x08022e50
+halted: PC: 0x08022e52
+halted: PC: 0x08022e54
+halted: PC: 0x08022e56
+halted: PC: 0x08022ef6
+halted: PC: 0x08022ef8
+halted: PC: 0x08022efa
+halted: PC: 0x08022e58
+$1 = (struct SS_TOD *) 0xfffffffd
+Cannot access memory at address 0x0
+$2 = {msgs = {{std_id = 0x0, active_counter = 0x0, reset_value = 0x0, timeout_detected = 0x0}, {std_id = 0x0, active_counter = 0x0, reset_value = 0x0, timeout_detected = 0x0}, {std_id = 0x0, active_counter = 0x0, reset_value = 0x0, timeout_detected = 0x0}, {std_id = 0x0, active_counter = 0x0, reset_value = 0x0, timeout_detected = 0x0}, {std_id = 0x0, active_counter = 0x0, reset_value = 0x0, timeout_detected = 0x0}, {std_id = 0x0, active_counter = 0x0, reset_value = 0x0, timeout_detected = 0x0}, {std_id = 0x0, active_counter = 0x0, reset_value = 0x0, timeout_detected = 0x0}, {std_id = 0x0, active_counter = 0x0, reset_value = 0x0, timeout_detected = 0x0}, {std_id = 0x0, active_counter = 0x0, reset_value = 0x0, timeout_detected = 0x0}, {std_id = 0x0, active_counter = 0x0, reset_value = 0x0, timeout_detected = 0x0}}, msg_count = 0x0}
+$3 = {msgs = {{std_id = 0x123, active_counter = 0xa, reset_value = 0xa, timeout_detected = 0x0}, {std_id = 0x0, active_counter = 0x0, reset_value = 0x0, timeout_detected = 0x0}, {std_id = 0x0, active_counter = 0x0, reset_value = 0x0, timeout_detected = 0x0}, {std_id = 0x0, active_counter = 0x0, reset_value = 0x0, timeout_detected = 0x0}, {std_id = 0x0, active_counter = 0x0, reset_value = 0x0, timeout_detected = 0x0}, {std_id = 0x0, active_counter = 0x0, reset_value = 0x0, timeout_detected = 0x0}, {std_id = 0x0, active_counter = 0x0, reset_value = 0x0, timeout_detected = 0x0}, {std_id = 0x0, active_counter = 0x0, reset_value = 0x0, timeout_detected = 0x0}, {std_id = 0x0, active_counter = 0x0, reset_value = 0x0, timeout_detected = 0x0}, {std_id = 0x0, active_counter = 0x0, reset_value = 0x0, timeout_detected = 0x0}}, msg_count = 0x1}
