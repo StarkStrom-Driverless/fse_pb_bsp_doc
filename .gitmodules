@@ -16,3 +16,15 @@
 [submodule "can_receive_std/fse_pb_bsp"]
 	path = can_receive_std/fse_pb_bsp
 	url = git@github.com:StarkStrom-Driverless/fse_pb_bsp.git
+[submodule "can_receive_queue/fse_pb_bsp"]
+	path = can_receive_queue/fse_pb_bsp
+	url = git@github.com:StarkStrom-Driverless/fse_pb_bsp.git
+[submodule "can_tod/fse_pb_bsp"]
+	path = can_tod/fse_pb_bsp
+	url = git@github.com:StarkStrom-Driverless/fse_pb_bsp.git
+[submodule "spi/fse_pb_bsp"]
+	path = spi/fse_pb_bsp
+	url = git@github.com:StarkStrom-Driverless/fse_pb_bsp.git
+[submodule "fm/fse_pb_bsp"]
+	path = fm/fse_pb_bsp
+	url = git@github.com:StarkStrom-Driverless/fse_pb_bsp.git
