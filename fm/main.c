@@ -2,7 +2,7 @@
 
 void ss_init_error(SS_FEEDBACK feedback);
 
-uint16_t fm_pin = PIN('A', 0);
+uint16_t fm_pin = PIN('A', 5);
 
 static void fm_task(void *args) {
     float value;
@@ -14,7 +14,7 @@ static void fm_task(void *args) {
         ss_can_frame_set_signal(&msg, 0, 32, (uint32_t)value);
         ss_can_send(1, &msg);
 
-        ss_rtos_delay_ms(500);
+        ss_rtos_delay_ms(10);
     }
 }
 
@@ -24,7 +24,7 @@ int main(void)
 
     SS_HANDLE_INIT(ss_can_init(1, 1000000));
 
-    SS_HANDLE_INIT(ss_fm_init(fm_pin, 1000));
+    SS_HANDLE_INIT(ss_fm_init(fm_pin, 1000000));
 
     SS_HANDLE_INIT(ss_rtos_task_add(fm_task, NULL, 1, "fm_task"));
 

@@ -1,0 +1,1097 @@
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+0x080203d0 in ss_delay (count=0x1550a8) at fse_pb_bsp/ss/inc/ss_delay.h:9
+Breakpoint 1 at 0x8020458: file main.c, line 23.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Breakpoint 1, main () at main.c:23
+halted: PC: 0x08023784
+halted: PC: 0x0802045e
+halted: PC: 0x08020460
+halted: PC: 0x0802046e
+halted: PC: 0x08020470
+halted: PC: 0x08020472
+halted: PC: 0x08022220
+halted: PC: 0x08020478
+halted: PC: 0x0802047a
+halted: PC: 0x0802048c
+halted: PC: 0x0802048e
+halted: PC: 0x08020490
+halted: PC: 0x08020494
+halted: PC: 0x08020496
+halted: PC: 0x080230b8
+ss_fm_init (pin_id=0x0, resolution=0x3e8) at fse_pb_bsp/ss/src/ss_fm.c:293
+halted: PC: 0x080230c6
+halted: PC: 0x080230c8
+halted: PC: 0x080230ca
+halted: PC: 0x080230cc
+halted: PC: 0x080230ce
+halted: PC: 0x080230d0
+halted: PC: 0x080230d2
+halted: PC: 0x0802363c
+halted: PC: 0x080230d8
+halted: PC: 0x080230da
+halted: PC: 0x080230dc
+halted: PC: 0x080230e0
+halted: PC: 0x080230e2
+halted: PC: 0x080230e4
+halted: PC: 0x080230e6
+halted: PC: 0x080230e8
+halted: PC: 0x080230ea
+halted: PC: 0x08022f18
+halted: PC: 0x080230f0
+halted: PC: 0x080230f2
+halted: PC: 0x080230f4
+halted: PC: 0x080230f8
+halted: PC: 0x080230fa
+halted: PC: 0x080230fe
+halted: PC: 0x08023100
+halted: PC: 0x08023102
+halted: PC: 0x08024168
+halted: PC: 0x08023108
+halted: PC: 0x0802310c
+halted: PC: 0x0802310e
+halted: PC: 0x08023110
+halted: PC: 0x08023a84
+halted: PC: 0x08023116
+halted: PC: 0x08023118
+halted: PC: 0x0802311a
+halted: PC: 0x0802311c
+halted: PC: 0x08023128
+halted: PC: 0x0802312a
+halted: PC: 0x0802312e
+halted: PC: 0x08023130
+halted: PC: 0x08023132
+halted: PC: 0x08022950
+halted: PC: 0x08023138
+halted: PC: 0x0802313a
+halted: PC: 0x0802313c
+halted: PC: 0x0802313e
+halted: PC: 0x0802314a
+halted: PC: 0x0802314c
+halted: PC: 0x0802314e
+halted: PC: 0x08022a48
+halted: PC: 0x08023154
+$1 = 0x0
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+blocking_handler () at ../../cm3/vector.c:104
+Breakpoint 1 at 0x8020458: file main.c, line 23.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Breakpoint 1, main () at main.c:23
+halted: PC: 0x08023844
+halted: PC: 0x0802045e
+halted: PC: 0x08020460
+halted: PC: 0x0802046e
+halted: PC: 0x08020470
+halted: PC: 0x08020472
+halted: PC: 0x08022220
+halted: PC: 0x08020478
+halted: PC: 0x0802047a
+halted: PC: 0x0802048c
+halted: PC: 0x0802048e
+halted: PC: 0x08020490
+halted: PC: 0x08020494
+halted: PC: 0x08020496
+halted: PC: 0x0802311c
+halted: PC: 0x0802049c
+halted: PC: 0x0802049e
+halted: PC: 0x080204b6
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x08021050 in prvCheckTasksWaitingTermination () at fse_pb_bsp/rtos/tasks.c:6172
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+blocking_handler () at ../../cm3/vector.c:104
+#0  blocking_handler () at ../../cm3/vector.c:104
+#1  <signal handler called>
+#2  prvIdleTask (pvParameters=0x0) at fse_pb_bsp/rtos/tasks.c:5850
+#3  0x08021914 in pxPortInitialiseStack (pxTopOfStack=0x0, pxCode=0x0, pvParameters=0x61000000) at fse_pb_bsp/rtos/portable/GCC/ARM_CM4F/port.c:231
+Backtrace stopped: previous frame identical to this frame (corrupt stack?)
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+blocking_handler () at ../../cm3/vector.c:104
+Breakpoint 2 at 0x80233a4: file fse_pb_bsp/ss/src/ss_fm.c, line 384.
+Continuing.
+
+Breakpoint 1, main () at main.c:23
+Continuing.
+target not halted
+target stm32f4x.cpu was not halted when step was requested
+
+Breakpoint 1, main () at main.c:23
+Continuing.
+halted: PC: 0x080233a4
+
+Breakpoint 2, ss_fm_read (pin_id=0x0, value=0x200011f4 <ucHeap+4360>) at fse_pb_bsp/ss/src/ss_fm.c:384
+halted: PC: 0x080233a6
+halted: PC: 0x080233a8
+halted: PC: 0x080233ac
+halted: PC: 0x080233ae
+halted: PC: 0x080233b0
+halted: PC: 0x080233b2
+halted: PC: 0x08022d8c
+halted: PC: 0x080233b8
+$1 = {last_capture = 0x0, frequency = 0, init = 0x0, resolution = 0x3e8, pin_id = 0x0, enabled = 0x1, requested = 0x7, timer = 0x40000c00, ic = 0x0}
+halted: PC: 0x080233ba
+halted: PC: 0x080233bc
+halted: PC: 0x080233c8
+halted: PC: 0x080233ca
+halted: PC: 0x080233cc
+halted: PC: 0x080233ce
+halted: PC: 0x080233d4
+halted: PC: 0x080233d6
+halted: PC: 0x080233d8
+halted: PC: 0x080233e4
+halted: PC: 0x080233e6
+halted: PC: 0x080233e8
+halted: PC: 0x080233ea
+halted: PC: 0x0802347e
+halted: PC: 0x08023480
+halted: PC: 0x08023482
+halted: PC: 0x08023484
+halted: PC: 0x08023486
+halted: PC: 0x08023488
+halted: PC: 0x0802348a
+halted: PC: 0x0802348c
+halted: PC: 0x0802348e
+halted: PC: 0x08023490
+halted: PC: 0x08023492
+halted: PC: 0x08023494
+halted: PC: 0x08023496
+halted: PC: 0x08023498
+$2 = 0
+Continuing.
+
+Breakpoint 2, ss_fm_read (pin_id=0x0, value=0x200011f4 <ucHeap+4360>) at fse_pb_bsp/ss/src/ss_fm.c:384
+halted: PC: 0x080233a6
+halted: PC: 0x080233a8
+Continuing.
+
+Breakpoint 2, ss_fm_read (pin_id=0x0, value=0x200011f4 <ucHeap+4360>) at fse_pb_bsp/ss/src/ss_fm.c:384
+halted: PC: 0x080233a6
+halted: PC: 0x080233a8
+halted: PC: 0x080233ac
+halted: PC: 0x080233ae
+halted: PC: 0x080233b0
+halted: PC: 0x080233b2
+halted: PC: 0x08022d8c
+halted: PC: 0x080233b8
+halted: PC: 0x080233ba
+halted: PC: 0x080233bc
+halted: PC: 0x080233c8
+halted: PC: 0x080233ca
+halted: PC: 0x080233cc
+halted: PC: 0x080233ce
+halted: PC: 0x080233d4
+halted: PC: 0x080233d6
+halted: PC: 0x080233d8
+halted: PC: 0x080233e4
+halted: PC: 0x080233e6
+halted: PC: 0x080233e8
+halted: PC: 0x080233ea
+halted: PC: 0x0802347e
+Breakpoint 3 at 0x80233f4: file fse_pb_bsp/ss/src/ss_fm.c, line 399.
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x08020458 in main at main.c:23
+	breakpoint already hit 3 times
+2       breakpoint     keep y   0x080233a4 in ss_fm_read at fse_pb_bsp/ss/src/ss_fm.c:384
+	breakpoint already hit 3 times
+3       breakpoint     keep y   0x080233f4 in ss_fm_read at fse_pb_bsp/ss/src/ss_fm.c:399
+Breakpoint 4 at 0x802347e: file fse_pb_bsp/ss/src/ss_fm.c, line 425.
+Continuing.
+halted: PC: 0x08023480
+
+Breakpoint 4, ss_fm_read (pin_id=0x0, value=0x200011f4 <ucHeap+4360>) at fse_pb_bsp/ss/src/ss_fm.c:425
+halted: PC: 0x08023480
+halted: PC: 0x08023482
+halted: PC: 0x08023484
+halted: PC: 0x08023486
+Continuing.
+
+Breakpoint 4, ss_fm_read (pin_id=0x0, value=0x200011f4 <ucHeap+4360>) at fse_pb_bsp/ss/src/ss_fm.c:425
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x08020458 in main at main.c:23
+	breakpoint already hit 3 times
+3       breakpoint     keep y   0x080233f4 in ss_fm_read at fse_pb_bsp/ss/src/ss_fm.c:399
+4       breakpoint     keep y   0x0802347e fse_pb_bsp/ss/src/ss_fm.c:425
+	breakpoint already hit 2 times
+Continuing.
+
+Breakpoint 3, ss_fm_read (pin_id=0x0, value=0x200011f4 <ucHeap+4360>) at fse_pb_bsp/ss/src/ss_fm.c:399
+halted: PC: 0x080233f6
+halted: PC: 0x080233f8
+halted: PC: 0x080233fa
+halted: PC: 0x080233fc
+halted: PC: 0x080233fe
+halted: PC: 0x08023400
+halted: PC: 0x08023402
+halted: PC: 0x08023404
+halted: PC: 0x08023406
+halted: PC: 0x08023408
+halted: PC: 0x0802340a
+halted: PC: 0x0802340c
+halted: PC: 0x0802340e
+halted: PC: 0x08023410
+halted: PC: 0x08023424
+halted: PC: 0x08023426
+halted: PC: 0x08023428
+halted: PC: 0x0802342a
+halted: PC: 0x0802342c
+halted: PC: 0x0802344e
+halted: PC: 0x08023450
+halted: PC: 0x08023452
+halted: PC: 0x08023454
+halted: PC: 0x08023456
+halted: PC: 0x08023458
+halted: PC: 0x0802345a
+halted: PC: 0x0802345c
+halted: PC: 0x0802345e
+halted: PC: 0x08024740
+blocking_handler () at ../../cm3/vector.c:104
+#0  blocking_handler () at ../../cm3/vector.c:104
+#1  <signal handler called>
+#2  0x0802345e in ss_fm_read (pin_id=0x0, value=0x200011f4 <ucHeap+4360>) at fse_pb_bsp/ss/src/ss_fm.c:416
+#3  0x08020404 in fm_task (args=0x0) at main.c:11
+#4  0x08021914 in pxPortInitialiseStack (pxTopOfStack=0x0, pxCode=0x0, pvParameters=0x0) at fse_pb_bsp/rtos/portable/GCC/ARM_CM4F/port.c:231
+Backtrace stopped: previous frame identical to this frame (corrupt stack?)
+Breakpoint 5 at 0x8023458: file fse_pb_bsp/ss/src/ss_fm.c, line 416.
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x08020458 in main at main.c:23
+	breakpoint already hit 3 times
+3       breakpoint     keep y   0x080233f4 in ss_fm_read at fse_pb_bsp/ss/src/ss_fm.c:399
+	breakpoint already hit 1 time
+5       breakpoint     keep y   0x08023458 in ss_fm_read at fse_pb_bsp/ss/src/ss_fm.c:416
+Continuing.
+
+Breakpoint 1, main () at main.c:23
+Continuing.
+halted: PC: 0x08023844
+
+Program received signal SIGINT, Interrupt.
+blocking_handler () at ../../cm3/vector.c:104
+Breakpoint 6 at 0x8023128: file fse_pb_bsp/ss/src/ss_fm.c, line 303.
+Breakpoint 7 at 0x80233f4: file fse_pb_bsp/ss/src/ss_fm.c, line 399.
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x08020458 in main at main.c:23
+	breakpoint already hit 4 times
+5       breakpoint     keep y   0x08023458 in ss_fm_read at fse_pb_bsp/ss/src/ss_fm.c:416
+6       breakpoint     keep y   0x08023128 in ss_fm_init at fse_pb_bsp/ss/src/ss_fm.c:303
+7       breakpoint     keep y   0x080233f4 in ss_fm_read at fse_pb_bsp/ss/src/ss_fm.c:399
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x08020458 in main at main.c:23
+	breakpoint already hit 4 times
+7       breakpoint     keep y   0x080233f4 in ss_fm_read at fse_pb_bsp/ss/src/ss_fm.c:399
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+blocking_handler () at ../../cm3/vector.c:104
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+blocking_handler () at ../../cm3/vector.c:104
+Num     Type           Disp Enb Address    What
+7       breakpoint     keep y   0x080233f4 in ss_fm_read at fse_pb_bsp/ss/src/ss_fm.c:399
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+blocking_handler () at ../../cm3/vector.c:104
+Breakpoint 1 at 0x8020458: file main.c, line 23.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Breakpoint 1, main () at main.c:23
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+blocking_handler () at ../../cm3/vector.c:104
+Breakpoint 1 at 0x8020458: file main.c, line 23.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Breakpoint 1, main () at main.c:23
+Continuing.
+halted: PC: 0x08023850
+
+Program received signal SIGINT, Interrupt.
+0x08020fba in prvIdleTask (pvParameters=0x0) at fse_pb_bsp/rtos/tasks.c:5850
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+blocking_handler () at ../../cm3/vector.c:104
+#0  blocking_handler () at ../../cm3/vector.c:104
+#1  <signal handler called>
+#2  prvIdleTask (pvParameters=0x0) at fse_pb_bsp/rtos/tasks.c:5850
+#3  0x08021914 in pxPortInitialiseStack (pxTopOfStack=0x0, pxCode=0x0, pvParameters=0x61000000) at fse_pb_bsp/rtos/portable/GCC/ARM_CM4F/port.c:231
+Backtrace stopped: previous frame identical to this frame (corrupt stack?)
+Breakpoint 2 at 0x80233f4: file fse_pb_bsp/ss/src/ss_fm.c, line 399.
+Continuing.
+
+Breakpoint 1, main () at main.c:23
+Continuing.
+halted: PC: 0x08023850
+
+Program received signal SIGINT, Interrupt.
+blocking_handler () at ../../cm3/vector.c:104
+#0  blocking_handler () at ../../cm3/vector.c:104
+#1  <signal handler called>
+#2  prvIdleTask (pvParameters=0x0) at fse_pb_bsp/rtos/tasks.c:5850
+#3  0x08021914 in pxPortInitialiseStack (pxTopOfStack=0x0, pxCode=0x0, pvParameters=0x61000000) at fse_pb_bsp/rtos/portable/GCC/ARM_CM4F/port.c:231
+Backtrace stopped: previous frame identical to this frame (corrupt stack?)
+Continuing.
+
+Breakpoint 1, main () at main.c:23
+halted: PC: 0x08023850
+halted: PC: 0x0802045e
+halted: PC: 0x08020460
+halted: PC: 0x0802046e
+halted: PC: 0x08020470
+halted: PC: 0x08020472
+halted: PC: 0x08022220
+halted: PC: 0x08020478
+halted: PC: 0x0802047a
+halted: PC: 0x0802048c
+halted: PC: 0x0802048e
+halted: PC: 0x08020490
+halted: PC: 0x08020494
+halted: PC: 0x08020496
+halted: PC: 0x0802311c
+halted: PC: 0x0802049c
+halted: PC: 0x0802049e
+halted: PC: 0x080204b6
+Breakpoint 3 at 0x80233a4: file fse_pb_bsp/ss/src/ss_fm.c, line 384.
+Continuing.
+
+Breakpoint 3, ss_fm_read (pin_id=0x0, value=0x200011f4 <ucHeap+4360>) at fse_pb_bsp/ss/src/ss_fm.c:384
+halted: PC: 0x080233a6
+halted: PC: 0x080233a8
+halted: PC: 0x080233ac
+halted: PC: 0x080233ae
+halted: PC: 0x080233b0
+halted: PC: 0x080233b2
+halted: PC: 0x08022d8c
+halted: PC: 0x080233b8
+$1 = (struct FREQ_PIN *) 0x20008048 <ss_fm+336>
+$2 = {last_capture = 0x0, frequency = 0, init = 0x0, resolution = 0x3e8, pin_id = 0x0, enabled = 0x1, requested = 0x0, timer = 0x40000c00, ic = 0x0}
+halted: PC: 0x080233ba
+halted: PC: 0x080233bc
+halted: PC: 0x080233c8
+halted: PC: 0x080233ca
+halted: PC: 0x080233cc
+halted: PC: 0x080233ce
+halted: PC: 0x080233d4
+halted: PC: 0x080233d6
+halted: PC: 0x080233d8
+halted: PC: 0x080233e4
+halted: PC: 0x080233e6
+halted: PC: 0x080233e8
+halted: PC: 0x080233ea
+halted: PC: 0x0802348c
+halted: PC: 0x0802348e
+halted: PC: 0x08023490
+halted: PC: 0x08023492
+halted: PC: 0x08023494
+halted: PC: 0x08023496
+halted: PC: 0x08023498
+halted: PC: 0x0802349a
+halted: PC: 0x0802349c
+halted: PC: 0x0802349e
+Continuing.
+
+Breakpoint 3, ss_fm_read (pin_id=0x0, value=0x200011f4 <ucHeap+4360>) at fse_pb_bsp/ss/src/ss_fm.c:384
+halted: PC: 0x080233a6
+halted: PC: 0x080233a8
+halted: PC: 0x080233ac
+halted: PC: 0x080233ae
+halted: PC: 0x080233b0
+halted: PC: 0x080233b2
+halted: PC: 0x08022d8c
+halted: PC: 0x080233b8
+halted: PC: 0x080233ba
+halted: PC: 0x080233bc
+halted: PC: 0x080233c8
+halted: PC: 0x080233ca
+halted: PC: 0x080233cc
+halted: PC: 0x080233ce
+halted: PC: 0x080233d4
+halted: PC: 0x080233d6
+halted: PC: 0x080233d8
+halted: PC: 0x080233e4
+halted: PC: 0x080233e6
+halted: PC: 0x080233e8
+halted: PC: 0x080233ea
+halted: PC: 0x0802348c
+halted: PC: 0x0802348e
+halted: PC: 0x08023490
+halted: PC: 0x08023492
+halted: PC: 0x08023494
+halted: PC: 0x08023496
+halted: PC: 0x08023498
+halted: PC: 0x0802349a
+halted: PC: 0x0802349c
+halted: PC: 0x0802349e
+Continuing.
+
+Breakpoint 3, ss_fm_read (pin_id=0x0, value=0x200011f4 <ucHeap+4360>) at fse_pb_bsp/ss/src/ss_fm.c:384
+halted: PC: 0x080233a6
+halted: PC: 0x080233a8
+Continuing.
+
+Breakpoint 3, ss_fm_read (pin_id=0x0, value=0x200011f4 <ucHeap+4360>) at fse_pb_bsp/ss/src/ss_fm.c:384
+Continuing.
+halted: PC: 0x080233a6
+
+Breakpoint 3, ss_fm_read (pin_id=0x0, value=0x200011f4 <ucHeap+4360>) at fse_pb_bsp/ss/src/ss_fm.c:384
+Continuing.
+halted: PC: 0x080233a6
+
+Breakpoint 3, ss_fm_read (pin_id=0x0, value=0x200011f4 <ucHeap+4360>) at fse_pb_bsp/ss/src/ss_fm.c:384
+halted: PC: 0x080233a6
+halted: PC: 0x080233a8
+halted: PC: 0x080233ac
+halted: PC: 0x080233ae
+halted: PC: 0x080233b0
+halted: PC: 0x080233b2
+halted: PC: 0x08022d8c
+halted: PC: 0x080233b8
+Breakpoint 4 at 0x80233ec: file fse_pb_bsp/ss/src/ss_fm.c, line 398.
+Continuing.
+
+Breakpoint 3, ss_fm_read (pin_id=0x0, value=0x200011f4 <ucHeap+4360>) at fse_pb_bsp/ss/src/ss_fm.c:384
+Continuing.
+halted: PC: 0x080233a6
+
+Breakpoint 3, ss_fm_read (pin_id=0x0, value=0x200011f4 <ucHeap+4360>) at fse_pb_bsp/ss/src/ss_fm.c:384
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x08020458 in main at main.c:23
+	breakpoint already hit 3 times
+2       breakpoint     keep y   0x080233f4 in ss_fm_read at fse_pb_bsp/ss/src/ss_fm.c:399
+3       breakpoint     keep y   0x080233a4 in ss_fm_read at fse_pb_bsp/ss/src/ss_fm.c:384
+	breakpoint already hit 8 times
+4       breakpoint     keep y   0x080233ec in ss_fm_read at fse_pb_bsp/ss/src/ss_fm.c:398
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x08020458 in main at main.c:23
+	breakpoint already hit 3 times
+2       breakpoint     keep y   0x080233f4 in ss_fm_read at fse_pb_bsp/ss/src/ss_fm.c:399
+4       breakpoint     keep y   0x080233ec in ss_fm_read at fse_pb_bsp/ss/src/ss_fm.c:398
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+prvCheckTasksWaitingTermination () at fse_pb_bsp/rtos/tasks.c:6100
+Continuing.
+
+Breakpoint 4, ss_fm_read (pin_id=0x0, value=0x200011f4 <ucHeap+4360>) at fse_pb_bsp/ss/src/ss_fm.c:398
+Quit
+Continuing.
+halted: PC: 0x080233ee
+
+Breakpoint 2, ss_fm_read (pin_id=0x0, value=0x200011f4 <ucHeap+4360>) at fse_pb_bsp/ss/src/ss_fm.c:399
+halted: PC: 0x080233f6
+halted: PC: 0x080233f8
+halted: PC: 0x080233fa
+halted: PC: 0x080233fc
+halted: PC: 0x080233fe
+halted: PC: 0x08023400
+$3 = 0x40000c00
+halted: PC: 0x08023402
+halted: PC: 0x08023404
+halted: PC: 0x08023406
+halted: PC: 0x08023408
+halted: PC: 0x0802340a
+halted: PC: 0x0802340c
+halted: PC: 0x0802340e
+halted: PC: 0x08023410
+halted: PC: 0x08023424
+halted: PC: 0x08023426
+halted: PC: 0x08023428
+halted: PC: 0x0802342a
+halted: PC: 0x0802342c
+halted: PC: 0x0802344e
+halted: PC: 0x08023450
+halted: PC: 0x08023452
+halted: PC: 0x08023454
+halted: PC: 0x08023456
+halted: PC: 0x08023458
+$4 = 0x0
+$5 = 0x0
+halted: PC: 0x0802345a
+halted: PC: 0x0802345c
+halted: PC: 0x0802347c
+halted: PC: 0x0802347e
+halted: PC: 0x08023480
+halted: PC: 0x08023482
+halted: PC: 0x080234a8
+halted: PC: 0x080234aa
+halted: PC: 0x080234ac
+halted: PC: 0x080234ae
+halted: PC: 0x08020404
+fm_task (args=0x0) at main.c:13
+$6 = 0
+halted: PC: 0x08020408
+halted: PC: 0x0802040a
+halted: PC: 0x0802040e
+halted: PC: 0x08020410
+halted: PC: 0x0802265c
+halted: PC: 0x08020418
+halted: PC: 0x0802041c
+halted: PC: 0x0802041e
+halted: PC: 0x08020422
+halted: PC: 0x08020424
+halted: PC: 0x08020428
+halted: PC: 0x0802042c
+halted: PC: 0x0802042e
+halted: PC: 0x08020430
+halted: PC: 0x08020432
+halted: PC: 0x0802268e
+Continuing.
+
+Breakpoint 4, ss_fm_read (pin_id=0x0, value=0x200011f4 <ucHeap+4360>) at fse_pb_bsp/ss/src/ss_fm.c:398
+halted: PC: 0x080233ee
+halted: PC: 0x080233f0
+halted: PC: 0x080233f2
+halted: PC: 0x080233f4
+
+Breakpoint 2, ss_fm_read (pin_id=0x0, value=0x200011f4 <ucHeap+4360>) at fse_pb_bsp/ss/src/ss_fm.c:399
+halted: PC: 0x080233f6
+halted: PC: 0x080233f8
+halted: PC: 0x080233fa
+halted: PC: 0x080233fc
+halted: PC: 0x080233fe
+halted: PC: 0x08023400
+halted: PC: 0x08023402
+halted: PC: 0x08023404
+halted: PC: 0x08023406
+halted: PC: 0x08023408
+halted: PC: 0x0802340a
+halted: PC: 0x0802340c
+halted: PC: 0x0802340e
+halted: PC: 0x08023410
+halted: PC: 0x08023424
+Continuing.
+
+Breakpoint 4, ss_fm_read (pin_id=0x0, value=0x200011f4 <ucHeap+4360>) at fse_pb_bsp/ss/src/ss_fm.c:398
+halted: PC: 0x080233ee
+halted: PC: 0x080233f0
+halted: PC: 0x080233f2
+halted: PC: 0x080233f4
+
+Breakpoint 2, ss_fm_read (pin_id=0x0, value=0x200011f4 <ucHeap+4360>) at fse_pb_bsp/ss/src/ss_fm.c:399
+halted: PC: 0x080233f6
+halted: PC: 0x080233f8
+halted: PC: 0x080233fa
+halted: PC: 0x080233fc
+halted: PC: 0x080233fe
+halted: PC: 0x08023400
+halted: PC: 0x08023402
+halted: PC: 0x08023404
+halted: PC: 0x08023406
+halted: PC: 0x08023408
+halted: PC: 0x0802340a
+halted: PC: 0x0802340c
+halted: PC: 0x0802340e
+halted: PC: 0x08023410
+halted: PC: 0x08023424
+halted: PC: 0x08023426
+halted: PC: 0x08023428
+halted: PC: 0x0802342a
+halted: PC: 0x0802342c
+halted: PC: 0x0802344e
+$7 = 0x0
+Continuing.
+
+Breakpoint 4, ss_fm_read (pin_id=0x0, value=0x200011f4 <ucHeap+4360>) at fse_pb_bsp/ss/src/ss_fm.c:398
+Continuing.
+halted: PC: 0x080233ee
+
+Breakpoint 2, ss_fm_read (pin_id=0x0, value=0x200011f4 <ucHeap+4360>) at fse_pb_bsp/ss/src/ss_fm.c:399
+Continuing.
+halted: PC: 0x080233f6
+
+Breakpoint 4, ss_fm_read (pin_id=0x0, value=0x200011f4 <ucHeap+4360>) at fse_pb_bsp/ss/src/ss_fm.c:398
+Continuing.
+halted: PC: 0x080233ee
+
+Breakpoint 2, ss_fm_read (pin_id=0x0, value=0x200011f4 <ucHeap+4360>) at fse_pb_bsp/ss/src/ss_fm.c:399
+Continuing.
+halted: PC: 0x080233f6
+
+Breakpoint 4, ss_fm_read (pin_id=0x0, value=0x200011f4 <ucHeap+4360>) at fse_pb_bsp/ss/src/ss_fm.c:398
+Continuing.
+halted: PC: 0x080233ee
+
+Breakpoint 2, ss_fm_read (pin_id=0x0, value=0x200011f4 <ucHeap+4360>) at fse_pb_bsp/ss/src/ss_fm.c:399
+Continuing.
+halted: PC: 0x080233f6
+
+Breakpoint 4, ss_fm_read (pin_id=0x0, value=0x200011f4 <ucHeap+4360>) at fse_pb_bsp/ss/src/ss_fm.c:398
+Continuing.
+halted: PC: 0x080233ee
+
+Breakpoint 2, ss_fm_read (pin_id=0x0, value=0x200011f4 <ucHeap+4360>) at fse_pb_bsp/ss/src/ss_fm.c:399
+Continuing.
+halted: PC: 0x080233f6
+
+Breakpoint 4, ss_fm_read (pin_id=0x0, value=0x200011f4 <ucHeap+4360>) at fse_pb_bsp/ss/src/ss_fm.c:398
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x08020458 in main at main.c:23
+	breakpoint already hit 3 times
+2       breakpoint     keep y   0x080233f4 in ss_fm_read at fse_pb_bsp/ss/src/ss_fm.c:399
+	breakpoint already hit 7 times
+4       breakpoint     keep y   0x080233ec in ss_fm_read at fse_pb_bsp/ss/src/ss_fm.c:398
+	breakpoint already hit 8 times
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x08021050 in prvCheckTasksWaitingTermination () at fse_pb_bsp/rtos/tasks.c:6172
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+blocking_handler () at ../../cm3/vector.c:104
+#0  blocking_handler () at ../../cm3/vector.c:104
+#1  <signal handler called>
+#2  prvIdleTask (pvParameters=0x0) at fse_pb_bsp/rtos/tasks.c:5850
+#3  0x08021914 in pxPortInitialiseStack (pxTopOfStack=0x0, pxCode=0x0, pvParameters=0x61000000) at fse_pb_bsp/rtos/portable/GCC/ARM_CM4F/port.c:231
+Backtrace stopped: previous frame identical to this frame (corrupt stack?)
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+0x08021042 in prvCheckTasksWaitingTermination () at fse_pb_bsp/rtos/tasks.c:6100
+Breakpoint 1 at 0x8020454: file main.c, line 23.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Breakpoint 1, main () at main.c:23
+Breakpoint 2 at 0x802344a: file fse_pb_bsp/ss/src/ss_fm.c, line 414.
+Continuing.
+halted: PC: 0x0802384c
+
+Breakpoint 2, ss_fm_read (pin_id=0x5, value=0x200011f4 <ucHeap+4360>) at fse_pb_bsp/ss/src/ss_fm.c:414
+halted: PC: 0x0802344c
+halted: PC: 0x0802344e
+halted: PC: 0x08023450
+halted: PC: 0x08023452
+halted: PC: 0x08023454
+$1 = 0x0
+halted: PC: 0x08023456
+halted: PC: 0x08023458
+halted: PC: 0x08023478
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+ss_fm_read (pin_id=0x5, value=0x200011f4 <ucHeap+4360>) at fse_pb_bsp/ss/src/ss_fm.c:419
+Breakpoint 1 at 0x8020454: file main.c, line 23.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Breakpoint 1, main () at main.c:23
+halted: PC: 0x0802384c
+halted: PC: 0x0802045a
+halted: PC: 0x0802045c
+halted: PC: 0x0802046a
+halted: PC: 0x0802046c
+halted: PC: 0x0802046e
+halted: PC: 0x0802221c
+halted: PC: 0x08020474
+halted: PC: 0x08020476
+halted: PC: 0x08020488
+halted: PC: 0x0802048a
+halted: PC: 0x0802048c
+halted: PC: 0x08020490
+halted: PC: 0x08020492
+halted: PC: 0x08023118
+ss_fm_init (pin_id=0x5, resolution=0x3e8) at fse_pb_bsp/ss/src/ss_fm.c:303
+halted: PC: 0x08023126
+halted: PC: 0x08023128
+halted: PC: 0x0802312a
+halted: PC: 0x0802312c
+halted: PC: 0x0802312e
+halted: PC: 0x08023130
+halted: PC: 0x08023132
+halted: PC: 0x08023704
+halted: PC: 0x08023138
+halted: PC: 0x0802313a
+halted: PC: 0x0802313c
+halted: PC: 0x08023140
+halted: PC: 0x08023142
+halted: PC: 0x08023144
+halted: PC: 0x08023146
+halted: PC: 0x08023148
+halted: PC: 0x0802314a
+halted: PC: 0x08022f6c
+halted: PC: 0x08023150
+halted: PC: 0x08023152
+halted: PC: 0x08023154
+halted: PC: 0x08023158
+halted: PC: 0x0802315a
+halted: PC: 0x0802315e
+halted: PC: 0x08023160
+halted: PC: 0x08023162
+halted: PC: 0x08024230
+halted: PC: 0x08023168
+halted: PC: 0x0802316c
+halted: PC: 0x0802316e
+halted: PC: 0x08023170
+halted: PC: 0x08023b4c
+halted: PC: 0x08023176
+halted: PC: 0x08023178
+halted: PC: 0x0802317a
+halted: PC: 0x0802317c
+halted: PC: 0x08023188
+$1 = 0x40000000
+halted: PC: 0x0802318a
+halted: PC: 0x0802318e
+halted: PC: 0x08023190
+halted: PC: 0x08023192
+halted: PC: 0x0802294c
+halted: PC: 0x08023198
+halted: PC: 0x0802319a
+$2 = 0x54
+$3 = 84
+halted: PC: 0x0802319c
+halted: PC: 0x0802319e
+halted: PC: 0x080231aa
+halted: PC: 0x080231ae
+halted: PC: 0x080231b0
+halted: PC: 0x080231b2
+halted: PC: 0x080231b4
+halted: PC: 0x08022a44
+halted: PC: 0x080231ba
+$4 = 0x0
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+ss_fm_init (pin_id=0x5, resolution=0x3e8) at fse_pb_bsp/ss/src/ss_fm.c:323
+Breakpoint 1 at 0x8020454: file main.c, line 23.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Breakpoint 1, main () at main.c:23
+halted: PC: 0x0802384c
+halted: PC: 0x0802045a
+halted: PC: 0x0802045c
+halted: PC: 0x0802046a
+halted: PC: 0x0802046c
+halted: PC: 0x0802046e
+halted: PC: 0x0802221c
+halted: PC: 0x08020474
+halted: PC: 0x08020476
+halted: PC: 0x08020488
+halted: PC: 0x0802048a
+halted: PC: 0x0802048c
+halted: PC: 0x08020490
+halted: PC: 0x08020492
+halted: PC: 0x08023118
+ss_fm_init (pin_id=0x5, resolution=0x3e8) at fse_pb_bsp/ss/src/ss_fm.c:303
+halted: PC: 0x08023126
+halted: PC: 0x08023128
+halted: PC: 0x0802312a
+halted: PC: 0x0802312c
+halted: PC: 0x0802312e
+halted: PC: 0x08023130
+halted: PC: 0x08023132
+halted: PC: 0x08023704
+halted: PC: 0x08023138
+halted: PC: 0x0802313a
+halted: PC: 0x0802313c
+halted: PC: 0x08023140
+halted: PC: 0x08023142
+halted: PC: 0x08023144
+halted: PC: 0x08023146
+halted: PC: 0x08023148
+halted: PC: 0x0802314a
+halted: PC: 0x08022f6c
+halted: PC: 0x08023150
+halted: PC: 0x08023152
+halted: PC: 0x08023154
+halted: PC: 0x08023158
+halted: PC: 0x0802315a
+halted: PC: 0x0802315e
+halted: PC: 0x08023160
+halted: PC: 0x08023162
+halted: PC: 0x08024230
+halted: PC: 0x08023168
+halted: PC: 0x0802316c
+halted: PC: 0x0802316e
+halted: PC: 0x08023170
+halted: PC: 0x08023b4c
+halted: PC: 0x08023176
+halted: PC: 0x08023178
+halted: PC: 0x0802317a
+halted: PC: 0x0802317c
+halted: PC: 0x08023188
+halted: PC: 0x0802318a
+halted: PC: 0x0802318e
+halted: PC: 0x08023190
+halted: PC: 0x08023192
+halted: PC: 0x0802294c
+halted: PC: 0x08023198
+halted: PC: 0x0802319a
+halted: PC: 0x0802319c
+halted: PC: 0x0802319e
+halted: PC: 0x080231aa
+halted: PC: 0x080231ae
+halted: PC: 0x080231b0
+halted: PC: 0x080231b2
+halted: PC: 0x080231b4
+halted: PC: 0x08022a44
+ss_fm_get_ic_from_pin_id (pin_id=0x5, ic_channel=0x2001ffc8) at fse_pb_bsp/ss/src/ss_fm.c:20
+halted: PC: 0x08022a52
+halted: PC: 0x08022a54
+halted: PC: 0x08022a56
+halted: PC: 0x08022a58
+halted: PC: 0x08022a5a
+halted: PC: 0x08022a5c
+halted: PC: 0x08022a5e
+halted: PC: 0x08022a60
+halted: PC: 0x08022a62
+halted: PC: 0x08022a64
+halted: PC: 0x08022aee
+halted: PC: 0x08022af0
+halted: PC: 0x08022af2
+halted: PC: 0x08022af4
+halted: PC: 0x08022b2a
+halted: PC: 0x08022b2c
+halted: PC: 0x08022b2e
+halted: PC: 0x08022b30
+$1 = 0x0
+halted: PC: 0x08022b4e
+halted: PC: 0x08022b50
+halted: PC: 0x08022b52
+halted: PC: 0x08022b54
+halted: PC: 0x08022b56
+halted: PC: 0x08022b5a
+halted: PC: 0x080231b8
+halted: PC: 0x080231ba
+ss_fm_init (pin_id=0x5, resolution=0x3e8) at fse_pb_bsp/ss/src/ss_fm.c:323
+halted: PC: 0x080231bc
+halted: PC: 0x080231be
+halted: PC: 0x080231ca
+halted: PC: 0x080231ce
+halted: PC: 0x080231d0
+halted: PC: 0x080231d2
+halted: PC: 0x080231d4
+halted: PC: 0x08022b60
+halted: PC: 0x080231da
+$2 = 0x2
+halted: PC: 0x080231dc
+halted: PC: 0x080231de
+halted: PC: 0x080231ea
+halted: PC: 0x080231ee
+halted: PC: 0x080231f0
+halted: PC: 0x080231f2
+halted: PC: 0x080231f4
+halted: PC: 0x08022c80
+halted: PC: 0x080231fa
+$3 = 0x1c
+$4 = 28
+halted: PC: 0x080231fc
+halted: PC: 0x080231fe
+halted: PC: 0x0802320a
+halted: PC: 0x0802320e
+halted: PC: 0x08023210
+halted: PC: 0x08023212
+halted: PC: 0x08023214
+halted: PC: 0x08022ff8
+halted: PC: 0x0802321a
+$5 = 0x1
+halted: PC: 0x0802321c
+halted: PC: 0x0802321e
+halted: PC: 0x0802322a
+halted: PC: 0x0802322c
+halted: PC: 0x0802322e
+halted: PC: 0x08023232
+halted: PC: 0x08023234
+halted: PC: 0x08023238
+halted: PC: 0x0802323a
+halted: PC: 0x0802323c
+$6 = 0x1481f
+$7 = 83999
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+0x08020fb2 in prvIdleTask (pvParameters=0x0) at fse_pb_bsp/rtos/tasks.c:5850
+Breakpoint 1 at 0x8020454: file main.c, line 23.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Breakpoint 1, main () at main.c:23
+Breakpoint 2 at 0x8023446: file fse_pb_bsp/ss/src/ss_fm.c, line 414.
+Continuing.
+halted: PC: 0x08023848
+
+Breakpoint 2, ss_fm_read (pin_id=0x5, value=0x200011f4 <ucHeap+4360>) at fse_pb_bsp/ss/src/ss_fm.c:414
+halted: PC: 0x08023448
+halted: PC: 0x0802344a
+halted: PC: 0x0802344c
+halted: PC: 0x0802344e
+halted: PC: 0x08023450
+$1 = 0x0
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+ss_fm_read (pin_id=0x5, value=0x200011f4 <ucHeap+4360>) at fse_pb_bsp/ss/src/ss_fm.c:415
+Breakpoint 1 at 0x8020454: file main.c, line 23.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Breakpoint 1, main () at main.c:23
+halted: PC: 0x08023848
+halted: PC: 0x0802045a
+halted: PC: 0x0802045c
+halted: PC: 0x0802046a
+halted: PC: 0x0802046c
+halted: PC: 0x0802046e
+halted: PC: 0x08022218
+halted: PC: 0x08020474
+halted: PC: 0x08020476
+halted: PC: 0x08020488
+halted: PC: 0x0802048a
+halted: PC: 0x0802048c
+halted: PC: 0x0802048e
+halted: PC: 0x08020490
+halted: PC: 0x08023114
+ss_fm_init (pin_id=0x5, resolution=0xf4240) at fse_pb_bsp/ss/src/ss_fm.c:303
+halted: PC: 0x08023122
+halted: PC: 0x08023124
+halted: PC: 0x08023126
+halted: PC: 0x08023128
+halted: PC: 0x0802312a
+halted: PC: 0x0802312c
+halted: PC: 0x0802312e
+halted: PC: 0x08023700
+halted: PC: 0x08023134
+halted: PC: 0x08023136
+halted: PC: 0x08023138
+halted: PC: 0x0802313c
+halted: PC: 0x0802313e
+halted: PC: 0x08023140
+halted: PC: 0x08023142
+halted: PC: 0x08023144
+halted: PC: 0x08023146
+halted: PC: 0x08022f68
+halted: PC: 0x0802314c
+halted: PC: 0x0802314e
+halted: PC: 0x08023150
+halted: PC: 0x08023154
+halted: PC: 0x08023156
+halted: PC: 0x0802315a
+halted: PC: 0x0802315c
+halted: PC: 0x0802315e
+halted: PC: 0x0802422c
+halted: PC: 0x08023164
+halted: PC: 0x08023168
+halted: PC: 0x0802316a
+halted: PC: 0x0802316c
+halted: PC: 0x08023b48
+halted: PC: 0x08023172
+halted: PC: 0x08023174
+halted: PC: 0x08023176
+halted: PC: 0x08023178
+halted: PC: 0x08023184
+halted: PC: 0x08023186
+halted: PC: 0x0802318a
+halted: PC: 0x0802318c
+halted: PC: 0x0802318e
+halted: PC: 0x08022948
+halted: PC: 0x08023194
+halted: PC: 0x08023196
+halted: PC: 0x08023198
+halted: PC: 0x0802319a
+halted: PC: 0x080231a6
+halted: PC: 0x080231aa
+halted: PC: 0x080231ac
+halted: PC: 0x080231ae
+halted: PC: 0x080231b0
+halted: PC: 0x08022a40
+halted: PC: 0x080231b6
+halted: PC: 0x080231b8
+halted: PC: 0x080231ba
+halted: PC: 0x080231c6
+halted: PC: 0x080231ca
+halted: PC: 0x080231cc
+halted: PC: 0x080231ce
+halted: PC: 0x080231d0
+halted: PC: 0x08022b5c
+halted: PC: 0x080231d6
+halted: PC: 0x080231d8
+halted: PC: 0x080231da
+halted: PC: 0x080231e6
+halted: PC: 0x080231ea
+halted: PC: 0x080231ec
+halted: PC: 0x080231ee
+halted: PC: 0x080231f0
+halted: PC: 0x08022c7c
+halted: PC: 0x080231f6
+halted: PC: 0x080231f8
+halted: PC: 0x080231fa
+halted: PC: 0x08023206
+halted: PC: 0x0802320a
+halted: PC: 0x0802320c
+halted: PC: 0x0802320e
+halted: PC: 0x08023210
+halted: PC: 0x08022ff4
+halted: PC: 0x08023216
+halted: PC: 0x08023218
+halted: PC: 0x0802321a
+halted: PC: 0x08023226
+halted: PC: 0x08023228
+halted: PC: 0x0802322a
+halted: PC: 0x0802322e
+halted: PC: 0x08023230
+halted: PC: 0x08023234
+halted: PC: 0x08023236
+halted: PC: 0x08023238
+$1 = 0x53
+$2 = 83
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x08020fb2 in prvIdleTask (pvParameters=0x0) at fse_pb_bsp/rtos/tasks.c:5850
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x0802103e in prvCheckTasksWaitingTermination () at fse_pb_bsp/rtos/tasks.c:6100
