@@ -28,3 +28,6 @@
 [submodule "fm/fse_pb_bsp"]
 	path = fm/fse_pb_bsp
 	url = git@github.com:StarkStrom-Driverless/fse_pb_bsp.git
+[submodule "iob/fse_pb_bsp"]
+	path = iob/fse_pb_bsp
+	url = git@github.com:StarkStrom-Driverless/fse_pb_bsp.git

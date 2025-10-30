@@ -1,0 +1,448 @@
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+ss_delay (count=0xc1fce) at fse_pb_bsp/ss/inc/ss_delay.h:10
+Breakpoint 1 at 0x8020420: file main.c, line 21.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Breakpoint 1, main () at main.c:21
+halted: PC: 0x08022394
+halted: PC: 0x08020426
+halted: PC: 0x08020428
+halted: PC: 0x08020436
+halted: PC: 0x08020438
+halted: PC: 0x0802043a
+halted: PC: 0x0802043c
+halted: PC: 0x0802043e
+halted: PC: 0x080225e4
+ss_iob_add (pin_id=0x2b, polarity=0x0) at fse_pb_bsp/ss/src/ss_iob.c:105
+halted: PC: 0x080225f6
+halted: PC: 0x080225fa
+halted: PC: 0x080225fc
+halted: PC: 0x08022602
+halted: PC: 0x08022606
+halted: PC: 0x08022ed6
+halted: PC: 0x0802260e
+halted: PC: 0x08022610
+halted: PC: 0x08022612
+halted: PC: 0x08022614
+halted: PC: 0x080223b8
+halted: PC: 0x0802261a
+halted: PC: 0x0802261c
+halted: PC: 0x0802261e
+halted: PC: 0x08022620
+halted: PC: 0x08022622
+halted: PC: 0x08022624
+halted: PC: 0x08022628
+halted: PC: 0x08022732
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+ss_iob_add (pin_id=0x2b, polarity=0x0) at fse_pb_bsp/ss/src/ss_iob.c:143
+Breakpoint 1 at 0x8020420: file main.c, line 21.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Breakpoint 1, main () at main.c:21
+halted: PC: 0x08022394
+halted: PC: 0x08020426
+halted: PC: 0x08020428
+halted: PC: 0x08020436
+halted: PC: 0x08020438
+halted: PC: 0x0802043a
+halted: PC: 0x0802043c
+halted: PC: 0x0802043e
+halted: PC: 0x080225e4
+ss_iob_add (pin_id=0x2b, polarity=0x0) at fse_pb_bsp/ss/src/ss_iob.c:105
+halted: PC: 0x080225f6
+halted: PC: 0x080225fa
+halted: PC: 0x080225fc
+halted: PC: 0x08022602
+halted: PC: 0x08022606
+halted: PC: 0x08022ed6
+halted: PC: 0x0802260e
+halted: PC: 0x08022610
+halted: PC: 0x08022612
+halted: PC: 0x08022614
+halted: PC: 0x080223b8
+get_exti_from_pin_id (pin_id=0x2b, exti=0x2001ffd8) at fse_pb_bsp/ss/src/ss_iob.c:17
+halted: PC: 0x080223c6
+halted: PC: 0x080223c8
+halted: PC: 0x080223cc
+halted: PC: 0x080223ce
+$1 = 0xb
+$2 = 11
+halted: PC: 0x080223d0
+halted: PC: 0x080223d2
+halted: PC: 0x080223d4
+halted: PC: 0x080223d6
+halted: PC: 0x080223d8
+halted: PC: 0x080223da
+halted: PC: 0x0802247e
+halted: PC: 0x08022480
+halted: PC: 0x08022484
+halted: PC: 0x08022486
+halted: PC: 0x080224b6
+$3 = 0x0
+halted: PC: 0x080224b8
+halted: PC: 0x080224ba
+halted: PC: 0x080224bc
+halted: PC: 0x080224be
+halted: PC: 0x080224c2
+halted: PC: 0x08022618
+halted: PC: 0x0802261a
+ss_iob_add (pin_id=0x2b, polarity=0x0) at fse_pb_bsp/ss/src/ss_iob.c:113
+$4 = 0x0
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+0x080203d0 in ss_delay (count=0xe4304) at fse_pb_bsp/ss/inc/ss_delay.h:9
+Breakpoint 1 at 0x8020420: file main.c, line 21.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Breakpoint 1, main () at main.c:21
+halted: PC: 0x08022394
+halted: PC: 0x08020426
+halted: PC: 0x08020428
+halted: PC: 0x08020436
+halted: PC: 0x08020438
+halted: PC: 0x0802043a
+halted: PC: 0x0802043c
+halted: PC: 0x0802043e
+halted: PC: 0x080225e4
+ss_iob_add (pin_id=0x2b, polarity=0x0) at fse_pb_bsp/ss/src/ss_iob.c:105
+halted: PC: 0x080225f6
+halted: PC: 0x080225fa
+halted: PC: 0x080225fc
+halted: PC: 0x08022602
+halted: PC: 0x08022606
+halted: PC: 0x08022ed6
+halted: PC: 0x0802260e
+halted: PC: 0x08022610
+halted: PC: 0x08022612
+halted: PC: 0x08022614
+halted: PC: 0x080223b8
+halted: PC: 0x0802261a
+halted: PC: 0x0802261c
+halted: PC: 0x0802261e
+halted: PC: 0x0802262a
+halted: PC: 0x0802262e
+halted: PC: 0x08022630
+halted: PC: 0x08022632
+halted: PC: 0x08022634
+halted: PC: 0x080224c4
+halted: PC: 0x0802263a
+halted: PC: 0x0802263c
+halted: PC: 0x0802263e
+halted: PC: 0x08022640
+halted: PC: 0x08022642
+halted: PC: 0x08022644
+halted: PC: 0x08022648
+halted: PC: 0x08022732
+No symbol "r" in current context.
+$1 = 0x2001ffd4
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+0x080203d0 in ss_delay (count=0x70ae0) at fse_pb_bsp/ss/inc/ss_delay.h:9
+Breakpoint 1 at 0x8020420: file main.c, line 21.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Breakpoint 1, main () at main.c:21
+halted: PC: 0x08022394
+halted: PC: 0x08020426
+halted: PC: 0x08020428
+halted: PC: 0x08020436
+halted: PC: 0x08020438
+halted: PC: 0x0802043a
+halted: PC: 0x0802043c
+halted: PC: 0x0802043e
+halted: PC: 0x080225e4
+ss_iob_add (pin_id=0x2b, polarity=0x0) at fse_pb_bsp/ss/src/ss_iob.c:105
+halted: PC: 0x080225f6
+halted: PC: 0x080225fa
+halted: PC: 0x080225fc
+halted: PC: 0x08022602
+halted: PC: 0x08022606
+halted: PC: 0x08022ed6
+halted: PC: 0x0802260e
+halted: PC: 0x08022610
+halted: PC: 0x08022612
+halted: PC: 0x08022614
+halted: PC: 0x080223b8
+halted: PC: 0x0802261a
+halted: PC: 0x0802261c
+halted: PC: 0x0802261e
+halted: PC: 0x0802262a
+halted: PC: 0x0802262e
+halted: PC: 0x08022630
+halted: PC: 0x08022632
+halted: PC: 0x08022634
+halted: PC: 0x080224c4
+halted: PC: 0x0802263a
+$1 = 0x0
+halted: PC: 0x0802263c
+halted: PC: 0x0802263e
+halted: PC: 0x0802264a
+halted: PC: 0x0802264e
+halted: PC: 0x08022650
+halted: PC: 0x08022652
+halted: PC: 0x08022654
+halted: PC: 0x0802253c
+halted: PC: 0x0802265a
+$2 = 0x55
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+0x08020fea in prvCheckTasksWaitingTermination () at fse_pb_bsp/rtos/tasks.c:6100
+Breakpoint 1 at 0x8020420: file main.c, line 21.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Breakpoint 1, main () at main.c:21
+Breakpoint 2 at 0x8022796: file fse_pb_bsp/ss/src/ss_iob.c, line 153.
+Continuing.
+halted: PC: 0x08022394
+
+Breakpoint 2, ss_iob_get (pin_id=0x2b) at fse_pb_bsp/ss/src/ss_iob.c:153
+$1 = {{value = 0x0, enabled = 0x0, pin_id = 0x0, polarity = 0x0} <repeats 11 times>, {value = 0x0, enabled = 0x1, pin_id = 0x2b, polarity = 0x0}, {value = 0x0, enabled = 0x0, pin_id = 0x0, polarity = 0x0}, {value = 0x0, enabled = 0x0, pin_id = 0x0, polarity = 0x0}, {value = 0x0, enabled = 0x0, pin_id = 0x0, polarity = 0x0}, {value = 0x0, enabled = 0x0, pin_id = 0x0, polarity = 0x0}}
+$2 = {value = 0x0, enabled = 0x1, pin_id = 0x2b, polarity = 0x0}
+halted: PC: 0x08022798
+halted: PC: 0x0802279c
+halted: PC: 0x0802279e
+halted: PC: 0x080227a0
+halted: PC: 0x080227a2
+halted: PC: 0x080227a4
+halted: PC: 0x080227a6
+halted: PC: 0x080227a8
+halted: PC: 0x080227aa
+halted: PC: 0x080227ac
+halted: PC: 0x080227ae
+halted: PC: 0x080227b0
+halted: PC: 0x080227b2
+halted: PC: 0x080227b6
+halted: PC: 0x080227b8
+halted: PC: 0x080227ba
+halted: PC: 0x080227bc
+halted: PC: 0x080227be
+halted: PC: 0x080227c0
+halted: PC: 0x080227c2
+halted: PC: 0x080227c4
+halted: PC: 0x080227c6
+halted: PC: 0x080227e2
+halted: PC: 0x080227e4
+halted: PC: 0x080227e6
+halted: PC: 0x0802235c
+halted: PC: 0x080227ec
+halted: PC: 0x080227ee
+halted: PC: 0x080227f0
+/home/test/.gdbinit:21: Error in sourced command file:
+ssvesc.elf: No such file or directory.
+The target is set to little endian.
+Already logging to gdb_logfile.txt.
+0x08020fea in prvCheckTasksWaitingTermination () at fse_pb_bsp/rtos/tasks.c:6100
+Breakpoint 1 at 0x8020420: file main.c, line 21.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Breakpoint 1, main () at main.c:21
+halted: PC: 0x08022394
+halted: PC: 0x08020426
+halted: PC: 0x08020428
+halted: PC: 0x08020436
+halted: PC: 0x08020438
+halted: PC: 0x0802043a
+halted: PC: 0x0802043c
+halted: PC: 0x0802043e
+halted: PC: 0x080225f0
+ss_iob_add (pin_id=0x2b, polarity=0x0) at fse_pb_bsp/ss/src/ss_iob.c:107
+halted: PC: 0x08022602
+halted: PC: 0x08022606
+halted: PC: 0x08022608
+halted: PC: 0x0802260e
+halted: PC: 0x08022612
+halted: PC: 0x08022ee2
+halted: PC: 0x0802261a
+halted: PC: 0x0802261c
+halted: PC: 0x0802261e
+halted: PC: 0x08022620
+halted: PC: 0x080223b8
+halted: PC: 0x08022626
+$1 = 0x800
+halted: PC: 0x08022628
+halted: PC: 0x0802262a
+halted: PC: 0x08022636
+halted: PC: 0x0802263a
+halted: PC: 0x0802263c
+halted: PC: 0x0802263e
+halted: PC: 0x08022640
+halted: PC: 0x080224c4
+halted: PC: 0x08022646
+$2 = 0x40020800
+halted: PC: 0x08022648
+halted: PC: 0x0802264a
+halted: PC: 0x08022656
+halted: PC: 0x0802265a
+halted: PC: 0x0802265c
+halted: PC: 0x0802265e
+halted: PC: 0x08022660
+halted: PC: 0x0802253c
+halted: PC: 0x08022666
+$3 = 0x28
+$4 = 40
+halted: PC: 0x08022668
+halted: PC: 0x0802266a
+halted: PC: 0x08022676
+halted: PC: 0x08022678
+halted: PC: 0x0802267c
+halted: PC: 0x0802267e
+halted: PC: 0x08022680
+halted: PC: 0x08022682
+halted: PC: 0x08022684
+halted: PC: 0x08022686
+halted: PC: 0x08022688
+halted: PC: 0x0802268a
+halted: PC: 0x0802268c
+halted: PC: 0x0802268e
+halted: PC: 0x08022690
+halted: PC: 0x08022694
+halted: PC: 0x08022696
+halted: PC: 0x08022698
+halted: PC: 0x0802269a
+halted: PC: 0x0802269c
+halted: PC: 0x0802269e
+halted: PC: 0x080226a0
+halted: PC: 0x080226a2
+halted: PC: 0x080226a4
+halted: PC: 0x080226a6
+halted: PC: 0x080226a8
+halted: PC: 0x080226aa
+halted: PC: 0x080226ac
+halted: PC: 0x080226ae
+halted: PC: 0x08022da0
+halted: PC: 0x080226b4
+halted: PC: 0x080226b6
+halted: PC: 0x080226b8
+halted: PC: 0x080226ba
+halted: PC: 0x080226bc
+halted: PC: 0x080226be
+halted: PC: 0x08022d30
+halted: PC: 0x080226c4
+halted: PC: 0x080226c8
+halted: PC: 0x080226ca
+halted: PC: 0x080226cc
+halted: PC: 0x080226ce
+halted: PC: 0x080226d0
+halted: PC: 0x080226d2
+halted: PC: 0x080226d4
+halted: PC: 0x080226d6
+halted: PC: 0x080226d8
+halted: PC: 0x080226da
+halted: PC: 0x080226de
+halted: PC: 0x080226e0
+halted: PC: 0x080226e2
+halted: PC: 0x080226e4
+halted: PC: 0x080226e6
+halted: PC: 0x080226e8
+halted: PC: 0x080226ea
+halted: PC: 0x080226ec
+halted: PC: 0x080226ee
+halted: PC: 0x080226f0
+halted: PC: 0x0802272a
+halted: PC: 0x0802272c
+halted: PC: 0x0802272e
+halted: PC: 0x08022d78
+halted: PC: 0x08022734
+halted: PC: 0x08022736
+halted: PC: 0x08022738
+halted: PC: 0x080232c8
+Not stopped at any breakpoint; argument ignored.
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x08020fee in prvCheckTasksWaitingTermination () at fse_pb_bsp/rtos/tasks.c:6172
+Breakpoint 2 at 0x802297a: file fse_pb_bsp/ss/src/ss_iob.c, line 236.
+Continuing.
+
+Breakpoint 2, exti15_10_isr () at fse_pb_bsp/ss/src/ss_iob.c:236
+halted: PC: 0x0802297c
+halted: PC: 0x0802297e
+halted: PC: 0x08022980
+halted: PC: 0x08022750
+halted: PC: 0x08022986
+halted: PC: 0x08022988
+halted: PC: 0x08022996
+halted: PC: 0x08022998
+halted: PC: 0x08022750
+halted: PC: 0x0802299e
+halted: PC: 0x080229a0
+halted: PC: 0x080229a2
+halted: PC: 0x080229a6
+halted: PC: 0x08022d94
+exti_reset_request (extis=0x800) at ../common/exti_common_all.c:90
+halted: PC: 0x08022d96
+halted: PC: 0x08022d9a
+halted: PC: 0x080229aa
+exti15_10_isr () at fse_pb_bsp/ss/src/ss_iob.c:244
+halted: PC: 0x080229ac
+halted: PC: 0x080229ae
+halted: PC: 0x080229b0
+halted: PC: 0x08022750
+halted: PC: 0x080229b6
+halted: PC: 0x080229b8
+halted: PC: 0x080229c6
+halted: PC: 0x080229c8
+halted: PC: 0x08022750
+halted: PC: 0x080229ce
+halted: PC: 0x080229d0
+halted: PC: 0x080229de
+halted: PC: 0x080229e0
+halted: PC: 0x08022750
+halted: PC: 0x080229e6
+halted: PC: 0x080229e8
+halted: PC: 0x080229f6
+halted: PC: 0x080229f8
+halted: PC: 0x08022750
+halted: PC: 0x080229fe
+halted: PC: 0x08022a00
+halted: PC: 0x08022a0e
+halted: PC: 0x08022a12
+halted: PC: 0x08022a16
+halted: PC: 0x08022a18
+$5 = 0xb
+$6 = 11
+halted: PC: 0x08022a1c
+halted: PC: 0x08022a1e
+halted: PC: 0x08022a20
+halted: PC: 0x08022a22
+halted: PC: 0x08022a24
+halted: PC: 0x08022a26
+halted: PC: 0x08022a28
+halted: PC: 0x08022a2a
+halted: PC: 0x08022a2c
