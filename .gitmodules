@@ -1,36 +1,48 @@
 [submodule "blinky/fse_pb_bsp"]
 	path = blinky/fse_pb_bsp
 	url = git@github.com:StarkStrom-Driverless/fse_pb_bsp.git
+	ignore = all
 [submodule "pwm/fse_pb_bsp"]
 	path = pwm/fse_pb_bsp
 	url = git@github.com:StarkStrom-Driverless/fse_pb_bsp.git
+	ignore = all
 [submodule "input/fse_pb_bsp"]
 	path = input/fse_pb_bsp
 	url = git@github.com:StarkStrom-Driverless/fse_pb_bsp.git
+	ignore = all
 [submodule "adc/fse_pb_bsp"]
 	path = adc/fse_pb_bsp
 	url = git@github.com:StarkStrom-Driverless/fse_pb_bsp.git
+	ignore = all
 [submodule "can_send/fse_pb_bsp"]
 	path = can_send/fse_pb_bsp
 	url = git@github.com:StarkStrom-Driverless/fse_pb_bsp.git
+	ignore = all
 [submodule "can_receive_std/fse_pb_bsp"]
 	path = can_receive_std/fse_pb_bsp
 	url = git@github.com:StarkStrom-Driverless/fse_pb_bsp.git
+	ignore = all
 [submodule "can_receive_queue/fse_pb_bsp"]
 	path = can_receive_queue/fse_pb_bsp
 	url = git@github.com:StarkStrom-Driverless/fse_pb_bsp.git
+	ignore = all
 [submodule "can_tod/fse_pb_bsp"]
 	path = can_tod/fse_pb_bsp
 	url = git@github.com:StarkStrom-Driverless/fse_pb_bsp.git
+	ignore = all
 [submodule "spi/fse_pb_bsp"]
 	path = spi/fse_pb_bsp
 	url = git@github.com:StarkStrom-Driverless/fse_pb_bsp.git
+	ignore = all
 [submodule "fm/fse_pb_bsp"]
 	path = fm/fse_pb_bsp
 	url = git@github.com:StarkStrom-Driverless/fse_pb_bsp.git
+	ignore = all
 [submodule "iob/fse_pb_bsp"]
 	path = iob/fse_pb_bsp
 	url = git@github.com:StarkStrom-Driverless/fse_pb_bsp.git
+	ignore = all
 [submodule "can_boot/fse_pb_bsp"]
 	path = can_boot/fse_pb_bsp
 	url = git@github.com:StarkStrom-Driverless/fse_pb_bsp.git
+	ignore = all
