@@ -6,6 +6,9 @@ uint16_t adc = PIN('A', 2);
 ```
 - Defining pin ids 
 
+---
+
+
 ```c
 static void blinky_task(void *args) {
     uint16_t value = 0;
@@ -38,6 +41,7 @@ static void blinky_task(void *args) {
 - The function `ss_can_frame_set_signal` writes a value to a specific interval in the can-message
 - With the `ss_can_send` function a can-message is send
 
+---
 
 ```c
 int main(void)
