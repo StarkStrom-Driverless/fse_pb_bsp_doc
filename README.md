@@ -45,3 +45,5 @@ Type `./ss ` and you will get a overview of the functionality.
 
 # Examples
 [ADC](adc/README.md)
+[BLINKY](blinky/README.md)
+[CAN_BOOT](can_boot/README.md)
