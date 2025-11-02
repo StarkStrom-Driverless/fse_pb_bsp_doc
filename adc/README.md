@@ -1,10 +1,8 @@
-# ADC
-
 ```c
 uint16_t led = PIN('C', 1);
 uint16_t adc = PIN('A', 2);
 ```
-- Defining pin ids 
+- [Pin definition according to PIN DEFINITION](../docu/pin_definition.md)
 
 ---
 
@@ -34,12 +32,11 @@ static void blinky_task(void *args) {
 }
 ```
 
-- The `blinky_task` function is the FREE-RTOS Function. It contains a `for(;;)` endlos loop, which is delayed with the `ss_rtos_delay_ms` function.
-- If the `ss_rtos_delay_ms` is called, all stack-variables `value`, `msg` and `rc`are safed.
-- The `ss_can_frame_set_common` function sets the fields of a frame like id and dlc
+- [Task definition according to TASK DEFINITION](../docu/task_definition.md)
+- [Send CAN Frame accoring to CAN SEND](../docu/can_send.md)
+
 - The `ss_adc_read` reads the latest adc-value of the defined `adc` pin id. This function is non-blocking. It dont starts a conversion. The `fse_pb_bsp` library periodically startes adc-convertions in the background. 
-- The function `ss_can_frame_set_signal` writes a value to a specific interval in the can-message
-- With the `ss_can_send` function a can-message is send
+
 
 ---
 
@@ -65,6 +62,7 @@ int main(void)
 }
 ```
 
+- [Main scaliton according to MAIN SCALITON](../docu/main_scaliton.md)
 - The function `ss_adc_init` initialises the adc for a given pin. In the background for all pins which are initialized with `ss_adc_init`, the library starts a conversion periodically 
 - The function `ss_can_init` initializes a can peripheral with a given baudrate
 - With the `ss_rtos_task_add` function a task with a given priority is added to FREE-RTOS
