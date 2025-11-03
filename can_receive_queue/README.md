@@ -1,5 +1,7 @@
 The following example shows how to use ID specific message queues.
 
+---
+
 ```c
 static void can_queue_task(void *args) {
     struct SS_CAN_FRAME msg;
@@ -36,6 +38,8 @@ static void slow_can_task(void *args) {
 - `can_queue_task` is a task with a separate message queue
 - `slow_can_task` is a task whichs message queue contains all left can messages
 
+---
+
 ```c
 
     SS_HANDLE_INIT(ss_can_init(1, 1000000));
@@ -52,6 +56,8 @@ Initialsing a can_queue_handle with `ss_rtos_task_add`. This function directly c
 free RTOS task for a specific can message id. The function needs the CAN peripharel id, 
 The message id, a pointer to a FREE RTOS Task, a pointer to a user defined struct and 
 a prio for the can-reading task
+
+---
 
 ![alt text](img/can_receive_queue.drawio.png)
 

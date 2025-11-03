@@ -57,4 +57,7 @@ Type `./ss ` and you will get a overview of the functionality.
 
 [CAN_BOOT](can_boot/README.md)
 
-[CAN_MSG_QUEUE](can_receive_queue/README.md)
+[READ CAN_MSGS](can_receive_std/README.md)
+
+[READ CAN_MSG_QUEUES](can_receive_queue/README.md)
+
