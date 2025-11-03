@@ -14,3 +14,5 @@ a powercycle is required, to perform the mcuboot swap process.
 
 At the moment `ss_canboot_init` is responsible for a 1s delay during startup, because the flasharea 
 is erased.
+
+![alt text](img/canboot.drawio.png)

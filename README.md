@@ -39,11 +39,22 @@ Type `./ss ` and you will get a overview of the functionality.
 
 # Fundamentals
 [PIN DEFINITION](docu/pin_definition.md)
+
 [TASK DEFINITION](docu/task_definition.md)
+
 [MAIN SCALITON](docu/main_scaliton.md)
+
 [CAN SEND](docu/can_send.md)
+
+[CAN FILTER](docu/can_filter.md)
+
+[CAN READ](docu/can_read.md)
 
 # Examples
 [ADC](adc/README.md)
+
 [BLINKY](blinky/README.md)
+
 [CAN_BOOT](can_boot/README.md)
+
+[CAN_MSG_QUEUE](can_receive_queue/README.md)
