@@ -18,11 +18,10 @@ cd ..
 
 ```
 
-## Preparing a existing example
+## Preparing all existing examples
 ```shell
 
-# update submodule 
-git submodule init
+# update submodule in the base dir
 git submodule update
 ```
 
@@ -36,6 +35,11 @@ Type `./ss ` and you will get a overview of the functionality.
 - `./ss oocd_start` starts a open-ocd server. With `make gdb` you get a gdb debug tui.
 - `./ss canflash <file>.bin 0x80` flashes the binary via CAN over the ID 0x80
 - `./ss oocd_stop` stops the open-ocd server
+
+# Overview
+[PIN CAPABILITYS](docu/pin_capabilities.md)
+
+[INSTALL](docu/install.md)
 
 # Fundamentals
 [PIN DEFINITION](docu/pin_definition.md)
@@ -51,9 +55,11 @@ Type `./ss ` and you will get a overview of the functionality.
 [CAN READ](docu/can_read.md)
 
 # Examples
-[ADC](adc/README.md)
-
 [BLINKY](blinky/README.md)
+
+[INPUT](input/README.md)
+
+[ADC](adc/README.md)
 
 [CAN_BOOT](can_boot/README.md)
 
@@ -61,3 +67,10 @@ Type `./ss ` and you will get a overview of the functionality.
 
 [READ CAN_MSG_QUEUES](can_receive_queue/README.md)
 
+[CAN TIMEOUT DETECTION](can_tod/README.md)
+
+[PWM](pwm/README.md)
+
+[FREQUENCY MEASUREMENT](fm/README.md)
+
+[SPI](spi/README.md)
