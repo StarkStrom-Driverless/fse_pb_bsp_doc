@@ -1,4 +1,4 @@
-The following example shows how to use ID specific message queues.
+The following example demonstrates how to use **ID-specific CAN message queues**.
 
 ---
 
@@ -34,36 +34,40 @@ static void slow_can_task(void *args) {
 }
 ```
 
-- [Reading CAN frames according to CAN READ](../docu/can_read.md)
-- `can_queue_task` is a task with a separate message queue
-- `slow_can_task` is a task whichs message queue contains all left can messages
+* [Reading CAN frames according to CAN READ](../docu/can_read.md)
+* `can_queue_task` is a task with its own dedicated message queue
+* `slow_can_task` is a task whose message queue receives all remaining CAN messages
 
 ---
 
 ```c
+SS_HANDLE_INIT(ss_can_init(1, 1000000));
+SS_HANDLE_INIT(ss_can_filter_add_msg(1, 0x123));
+SS_HANDLE_INIT(ss_can_filter_add_msg(1, 0x124));
+SS_HANDLE_INIT(ss_can_queue_handle_add(1, 0x123, can_queue_task, NULL, 2));
 
-    SS_HANDLE_INIT(ss_can_init(1, 1000000));
-    SS_HANDLE_INIT(ss_can_filter_add_msg(1, 0x123));
-    SS_HANDLE_INIT(ss_can_filter_add_msg(1, 0x124));
-    SS_HANDLE_INIT(ss_can_queue_handle_add(1, 0x123, can_queue_task, NULL, 2));
-
-    SS_HANDLE_INIT(ss_rtos_task_add(slow_can_task, NULL, 4, "slow_can_task"));
+SS_HANDLE_INIT(ss_rtos_task_add(slow_can_task, NULL, 4, "slow_can_task"));
 ```
 
-[Using CAN filters according to CAN FILTER](../docu/can_filter.md).
+* [Using CAN filters according to CAN FILTER](../docu/can_filter.md)
 
-Initialsing a can_queue_handle with `ss_rtos_task_add`. This function directly creates a
-free RTOS task for a specific can message id. The function needs the CAN peripharel id, 
-The message id, a pointer to a FREE RTOS Task, a pointer to a user defined struct and 
-a prio for the can-reading task
+The example initializes a **CAN message queue handle** using `ss_can_queue_handle_add()`.
+This function automatically creates a **FreeRTOS task** bound to a specific CAN message ID.
+Its parameters include:
+
+* The CAN peripheral ID
+* The CAN message ID
+* A pointer to the FreeRTOS task function
+* A pointer to an optional user-defined structure
+* The task priority for message handling
 
 ---
 
 ![alt text](img/can_receive_queue.drawio.png)
 
-This picture demonstrates, the functionality of this concept. All incoming CAN messages,
-are passing the interrupt service routine. This routine than copies the incomming messages,
-to the seperate message queues, which are consumed by the tasks. 
-This concept enables to seperate fast messages from slow messages and prevent complexity 
-because, reading a message only has complexity O(1). Moreover, no global can_receive task
-is needed.
+This diagram illustrates the concept.
+All incoming CAN messages pass through the **interrupt service routine (ISR)**, which copies each message into its corresponding **message queue**.
+These queues are then processed independently by their respective tasks.
+
+This design allows **fast** and **slow** message handling to be separated efficiently, achieving constant-time complexity **O(1)** for reading a message.
+Furthermore, it eliminates the need for a global CAN receive task, resulting in cleaner and more scalable system architecture.

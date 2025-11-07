@@ -1,11 +1,11 @@
-The following example shows how to use the spi interface.
+This example demonstrates how to use the SPI interface.
 
 ```c
 SS_HANDLE_INIT(ss_spi_init(1, 1000000));
 ```
-The function `ss_spi_init` initialsies a spi peripharel.
-For this, it takes the id of the peripharel (in this case SPI1) and 
-the baudrate for transfering data.
+
+The function `ss_spi_init` initializes an SPI peripheral.
+It takes the peripheral ID (in this case, SPI1) and the desired baud rate for data transfer.
 
 ---
 
@@ -22,10 +22,8 @@ static void spi_task(void *args) {
 }
 ```
 
-- [Task definition according to TASK DEFINITION](../docu/task_definition.md)
+* [Task definition according to TASK DEFINITION](../docu/task_definition.md)
 
-With the function `ss_spi_rxtx` a transmition is started. For this the peripherel id is
-provided. for providing the tx-data, the pointer to the array tx is passed. For 
-telling the fuction where to write the returnd data, the pointer to the rx array is
-provided. The last parameter is the size of the arrays. This will start a spi-rxtx action
-which returns 4 bytes of data 
+The function `ss_spi_rxtx` initiates a SPI transmission and reception.
+It requires the peripheral ID, a pointer to the buffer for receiving data (`rx`), a pointer to the buffer containing data to send (`tx`), and the size of the data in bytes.
+In this example, 4 bytes are transmitted and received each cycle.

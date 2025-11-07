@@ -2,10 +2,10 @@
 uint16_t led = PIN('C', 1);
 uint16_t adc = PIN('A', 2);
 ```
-- [Pin definition according to PIN DEFINITION](../docu/pin_definition.md)
+
+* [Pin definition according to PIN DEFINITION](../docu/pin_definition.md)
 
 ---
-
 
 ```c
 static void blinky_task(void *args) {
@@ -23,8 +23,6 @@ static void blinky_task(void *args) {
             ss_can_frame_set_signal(&msg, 0, 16, value);
         }
 
-        
-
         ss_can_send(1, &msg);
 
         ss_rtos_delay_ms(500);
@@ -32,11 +30,12 @@ static void blinky_task(void *args) {
 }
 ```
 
-- [Task definition according to TASK DEFINITION](../docu/task_definition.md)
-- [Send CAN Frame accoring to CAN SEND](../docu/can_send.md)
+* [Task definition according to TASK DEFINITION](../docu/task_definition.md)
+* [Send CAN Frame accoring to CAN SEND](../docu/can_send.md)
 
-- The `ss_adc_read` reads the latest adc-value of the defined `adc` pin id. This function is non-blocking. It dont starts a conversion. The `fse_pb_bsp` library periodically startes adc-convertions in the background. 
-
+The function `ss_adc_read` retrieves the latest ADC value from the defined `adc` pin.
+It operates **non-blocking** and does **not** start a conversion itself.
+The `fse_pb_bsp` library periodically triggers ADC conversions in the background.
 
 ---
 
@@ -62,7 +61,11 @@ int main(void)
 }
 ```
 
-- [Main scaliton according to MAIN SCALITON](../docu/main_scaliton.md)
-- The function `ss_adc_init` initialises the adc for a given pin. In the background for all pins which are initialized with `ss_adc_init`, the library starts a conversion periodically 
-- The function `ss_can_init` initializes a can peripheral with a given baudrate
-- With the `ss_rtos_task_add` function a task with a given priority is added to FREE-RTOS
+* [Main scaliton according to MAIN SCALITON](../docu/main_scaliton.md)
+
+The function `ss_adc_init` initializes the ADC for the specified pin.
+For all pins initialized in this way, the library automatically performs periodic conversions in the background.
+
+The function `ss_can_init` initializes a CAN interface with the given baud rate.
+
+Using `ss_rtos_task_add`, a task is created and added to **FreeRTOS** with the specified priority.

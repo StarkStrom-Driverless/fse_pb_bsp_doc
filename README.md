@@ -74,3 +74,5 @@ Type `./ss ` and you will get a overview of the functionality.
 [FREQUENCY MEASUREMENT](fm/README.md)
 
 [SPI](spi/README.md)
+
+[INPUT OBSERVATION](iob/README.md)

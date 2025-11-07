@@ -1,9 +1,10 @@
+
 ```c
 static void task(void *args) {
     uint16_t value = 0;
 
     for (;;) {
-        // dosomething
+        // do something
 
         ss_rtos_delay_ms(500);
     }
@@ -19,22 +20,34 @@ int main(void)
 
     while (1) {
 
-	}
+    }
 
     return 0;
-
 }
 ```
 
-A task definition needs a static global function. 
-The function has a not specified transfer paramter.
-All defined variables outside the `for(;;)`-loop stored on a task specific stack.
-Every task has a `for(;;)`-loop.
-At the end of every cycle of this loop the function `ss_rtos_delay_ms()` must be executed.
-This function triggers a change of context and delays the task.
+### Explanation:
 
-The function `ss_rtos_task_add()` addes a task to the FreeRtos schedular.
-It takes a function pointer to the task.
-A pointer to a user-defined struct which is passed to the task by FreeRtos with `void *args`
-The priority of the task and the name
- 
+* **Task Definition:**
+  Each task must be defined as a `static` function with the signature `void task(void *args)`. The `args` parameter is a generic pointer allowing the user to pass data into the task.
+
+* **Task Variables:**
+  Variables declared outside the infinite `for(;;)` loop (like `value` in the example) are stored on the task’s dedicated stack, isolated from other tasks.
+
+* **Infinite Loop:**
+  Every task contains a `for(;;)` loop to keep it running indefinitely, allowing the RTOS scheduler to manage task switching.
+
+* **Task Delay & Context Switch:**
+  At the end of each loop iteration, the task calls `ss_rtos_delay_ms()`, which puts the task into a blocked state for the specified time and triggers a context switch to other ready tasks.
+
+* **Adding Task to Scheduler:**
+  The function `ss_rtos_task_add()` registers the task with the FreeRTOS scheduler. It requires:
+
+  * A pointer to the task function.
+  * A pointer to user-defined arguments (can be `NULL`).
+  * The task priority (higher number means higher priority).
+  * A human-readable task name for debugging purposes.
+
+* **Starting the Scheduler:**
+  After adding all tasks, `ss_rtos_start()` starts the FreeRTOS scheduler, which begins executing the tasks according to their priorities.
+

@@ -1,7 +1,8 @@
 ```c
 uint16_t led = PIN('C', 1);
 ```
-- [Pin definition according to PIN DEFINITION](../docu/pin_definition.md)
+
+* [Pin definition according to PIN DEFINITION](../docu/pin_definition.md)
 
 ---
 
@@ -18,12 +19,15 @@ static void blinky_task(void *args) {
     }
 }
 ```
-- [Task definition according to TASK DEFINITION](../docu/task_definition.md)
 
-- The function `ss_io_write()` takes the the unique pin id and the output value
-    - SS_GPIO_OFF - Turn pin off
-    - SS_GPIO_ON - Turn pin on
-    - SS_GPIO_TOGGLE - Toggle pin state
+* [Task definition according to TASK DEFINITION](../docu/task_definition.md)
+
+The function `ss_io_write()` writes a specified output value to the given pin ID.
+Possible values are:
+
+* **SS_GPIO_OFF** – Turns the pin off
+* **SS_GPIO_ON** – Turns the pin on
+* **SS_GPIO_TOGGLE** – Toggles the current pin state
 
 ---
 
@@ -46,6 +50,12 @@ int main(void)
 
 }
 ```
-- [Main scaliton according to MAIN SCALITON](../docu/main_scaliton.md)
-- [Task definition according to TASK DEFINITION](../docu/task_definition.md)
 
+* [Main scaliton according to MAIN SCALITON](../docu/main_scaliton.md)
+* [Task definition according to TASK DEFINITION](../docu/task_definition.md)
+
+The function `ss_io_init()` initializes the given pin with the specified mode, in this case `SS_GPIO_MODE_OUTPUT`.
+
+A new task is created using `ss_rtos_task_add()` and added to **FreeRTOS** with the specified priority.
+
+After all components are initialized, `ss_rtos_start()` launches the scheduler, starting task execution.
