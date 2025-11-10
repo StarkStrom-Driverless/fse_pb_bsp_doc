@@ -41,6 +41,8 @@ Type `./ss ` and you will get a overview of the functionality.
 
 [INSTALL](docu/install.md)
 
+[CAN USAGE](docu/linux_can_usage.md)
+
 # Fundamentals
 [PIN DEFINITION](docu/pin_definition.md)
 

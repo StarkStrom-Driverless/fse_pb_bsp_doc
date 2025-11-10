@@ -9,13 +9,16 @@ sudo apt install gdb-multiarch
 cd /usr/bin
 sudo ln -s gdb-multiarch arm-none-eabi-gdb
 
-# Download this arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi.tar.xz on
+# Download this arm-gnu-toolchain-14.3.rel1-x86_64-arm-none-eabi.tar.xz on
 # https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads
 
 cd /opt
-sudo tar Jxvf ~/arm-gnu-toolchain-12.3.rel1-x86_64-arm-none-eabi.tar.xz
+sudo tar Jxvf ~/Downloads/arm-gnu-toolchain-14.3.rel1-x86_64-arm-none-eabi.tar.xz
 
-export PATH=$PATH:/opt/arm-gnu-toolchain-12.3.rel1-x86_64-arm-none-eabi/bin
+# add to .bashrc
+export PATH=$PATH:/opt/arm-gnu-toolchain-14.3.rel1-x86_64-arm-none-eabi/bin
+
+source .bashrc
 
 sudo add-apt-repository ppa:deadsnakes/ppa
 sudo apt update
@@ -24,4 +27,8 @@ sudo apt install python3.8
 sudo apt install openocd
 
 sudo cp /lib/udev/rules.d/60-openocd.rules /etc/udev/rules.d/
+
+sudo reboot
+
+sudo apt install can-utils
 ```
