@@ -37,6 +37,8 @@ Type `./ss ` and you will get a overview of the functionality.
 - `./ss oocd_stop` stops the open-ocd server
 
 # Overview
+[OVERVIEW](docu/overview.md)
+
 [PIN CAPABILITYS](docu/pin_capabilities.md)
 
 [INSTALL](docu/install.md)
