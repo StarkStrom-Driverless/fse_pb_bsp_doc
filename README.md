@@ -1,5 +1,7 @@
 # Usage
 
+
+
 ## Creating a new example
 ```shell
 # Creating a folder
@@ -9,8 +11,13 @@ cd example_example
 # adding lib
 git submodule add git@github.com:StarkStrom-Driverless/fse_pb_bsp.git
 
-# installing 
+
+
+# checkout to version 
+# This is based on the version printed on the title page of the .pdf
 cd fse_pb_bsp
+git checkout <version>
+
 ./init.sh
 
 # go back
@@ -18,23 +25,45 @@ cd ..
 
 ```
 
-## Preparing all existing examples
+## Init a example
 ```shell
+
+cd <example-folder>
 
 # update submodule in the base dir
 git submodule update
+
+# checkout to version 
+# This is based on the version printed on the title page of the .pdf
+cd fse_pb_bsp
+git checkout <version>
+
+./init.sh
+
+# go back
+cd ..
+
 ```
 
 ## Building a example
 For building, flashing and debugging a tool called ss is provided.
 For this a soft link is created by the init script.
 The usage is very simple. 
+
+First you have to source the environment with
+```shell
+source .venv/bin/activate
+```
+after every new terminal startup
+
 Type `./ss ` and you will get a overview of the functionality.
 - `./ss build` builds the example
 - `./ss flash` flashes the example to the controller
 - `./ss oocd_start` starts a open-ocd server. With `make gdb` you get a gdb debug tui.
 - `./ss canflash <file>.bin 0x80` flashes the binary via CAN over the ID 0x80
 - `./ss oocd_stop` stops the open-ocd server
+
+
 
 # Overview
 [LIBRARY OVERVIEW](docu/overview.md)

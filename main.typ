@@ -1,23 +1,21 @@
 #import "@preview/cmarker:0.1.6"
 
 #align(center, [
-  #heading(bookmarked: false, [
-    #text(size: 20pt, [
-      Documentation Repository for 
-    ])
+
+  #text(size: 20pt, [
+    Documentation Repository for 
   ])
 
-  #heading(bookmarked: false, [
-    #text(size: 14pt, [
-      fse_pb_bsp
-    ])
+  #text(size: 14pt, [
+    fse_pb_bsp
   ])
 
-  #heading(bookmarked: false, [
-    #text(size: 10pt, [
-      v_0.0.1
-    ])
+
+
+  #text(size: 10pt, [
+    v_0.0.3
   ])
+
 
   #v(60pt)
 
