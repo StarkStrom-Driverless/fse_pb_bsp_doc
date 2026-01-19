@@ -3,17 +3,17 @@
 #align(center, [
 
   #text(size: 20pt, [
-    Documentation Repository for 
+    Development of a board support package (BSP) for the STM32F4-based processor board
   ])
 
   #text(size: 14pt, [
-    fse_pb_bsp
+    >>fse_pb_bsp<<
   ])
 
 
 
   #text(size: 10pt, [
-    v_0.0.3
+    based on Version v_0.0.3
   ])
 
 
@@ -23,7 +23,7 @@
   #link(
     "maximilian.hoffmann@starkstrom-augsburg.de"
   )
-  
+
 ])
 
 #pagebreak()
@@ -52,6 +52,6 @@
 }
 
 #cmarker.render(
-  read("README_processed_linked.md"), 
+  read("README_processed_linked.md"),
   scope: (image: (path, alt: none) => image(path, alt: alt))
 )
