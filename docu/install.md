@@ -40,7 +40,7 @@ For Fedora
 sudo dnf install arm-none-eabi-binutils-cs gdb openocd can-utils
 
 # create a sym link from gdb to arm-none-eabi-gdb 
-sudo ln -s gdb arm-none-eabi-gdb
+sudo ln -s gdb gdb-multiarch
 
 # Download this arm-gnu-toolchain-14.3.rel1-x86_64-arm-none-eabi.tar.xz on
 # https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads
