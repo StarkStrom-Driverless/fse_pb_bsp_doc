@@ -1,0 +1,117 @@
+0x080211c6 in prvIdleTask (pvParameters=0x0) at fse_pb_bsp/rtos/tasks.c:5850
+Breakpoint 1 at 0x802053c: file main.c, line 130.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Breakpoint 1, main () at main.c:130
+Breakpoint 2 at 0x802048e: file main.c, line 77.
+Continuing.
+halted: PC: 0x080241e8
+
+Breakpoint 2, main_task (args=0x0) at main.c:77
+halted: PC: 0x08020490
+halted: PC: 0x08020492
+halted: PC: 0x08020494
+halted: PC: 0x08020496
+halted: PC: 0x08023f38
+halted: PC: 0x0802049c
+halted: PC: 0x0802049e
+$1 = 0xff
+halted: PC: 0x080204a0
+halted: PC: 0x080204a2
+halted: PC: 0x080204a4
+halted: PC: 0x080204a6
+halted: PC: 0x080204a8
+halted: PC: 0x080204aa
+halted: PC: 0x080204ac
+halted: PC: 0x080204ae
+halted: PC: 0x080204b0
+halted: PC: 0x080204b2
+halted: PC: 0x080204b4
+halted: PC: 0x080204b6
+halted: PC: 0x080204b8
+halted: PC: 0x080204ba
+halted: PC: 0x080204c2
+halted: PC: 0x080204c4
+halted: PC: 0x080204c6
+halted: PC: 0x0802052a
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x080211c6 in prvIdleTask (pvParameters=0x0) at fse_pb_bsp/rtos/tasks.c:5850
+0x080211c6 in prvIdleTask (pvParameters=0x0) at fse_pb_bsp/rtos/tasks.c:5850
+Breakpoint 1 at 0x802053c: file main.c, line 130.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Breakpoint 1, main () at main.c:130
+Breakpoint 2 at 0x8020496: file main.c, line 81.
+Continuing.
+halted: PC: 0x080241e8
+
+Breakpoint 2, main_task (args=0x0) at main.c:81
+halted: PC: 0x08023f38
+halted: PC: 0x0802049c
+halted: PC: 0x0802049e
+halted: PC: 0x080204a0
+halted: PC: 0x080204a2
+halted: PC: 0x080204a4
+halted: PC: 0x080204a6
+halted: PC: 0x080204a8
+halted: PC: 0x080204aa
+halted: PC: 0x080204ac
+halted: PC: 0x080204ae
+halted: PC: 0x080204b0
+halted: PC: 0x080204b2
+halted: PC: 0x080204b4
+halted: PC: 0x080204b6
+halted: PC: 0x080204b8
+halted: PC: 0x080204ba
+halted: PC: 0x080204c2
+halted: PC: 0x080204c4
+halted: PC: 0x080204c6
+halted: PC: 0x0802052a
+Continuing.
+
+Breakpoint 2, main_task (args=0x0) at main.c:81
+halted: PC: 0x08023f38
+halted: PC: 0x0802049c
+halted: PC: 0x0802049e
+halted: PC: 0x080204a0
+halted: PC: 0x080204a2
+halted: PC: 0x080204a4
+halted: PC: 0x080204a6
+halted: PC: 0x080204a8
+halted: PC: 0x080204aa
+halted: PC: 0x080204ac
+halted: PC: 0x080204ae
+halted: PC: 0x080204b0
+halted: PC: 0x080204b2
+halted: PC: 0x080204b4
+halted: PC: 0x080204b6
+halted: PC: 0x080204b8
+halted: PC: 0x080204ba
+halted: PC: 0x080204bc
+halted: PC: 0x080204be
+halted: PC: 0x080204c8
+Function "n" not defined.
+halted: PC: 0x080204ca
+halted: PC: 0x08023ec8
+halted: PC: 0x080204d2
+halted: PC: 0x080204d4
+halted: PC: 0x0802051c
+halted: PC: 0x0802051e
+halted: PC: 0x0802052a
+Continuing.
+
+Breakpoint 2, main_task (args=0x0) at main.c:81
+halted: PC: 0x08023f38
+halted: PC: 0x0802049c
+halted: PC: 0x0802049e
+$1 = 0xff

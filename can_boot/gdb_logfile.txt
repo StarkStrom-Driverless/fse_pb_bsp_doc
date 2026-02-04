@@ -1,0 +1,34 @@
+0x0802106e in prvIdleTask (pvParameters=0x0) at fse_pb_bsp/rtos/tasks.c:5850
+Breakpoint 1 at 0x8020424: file main.c, line 21.
+Note: automatically using hardware breakpoints for read-only addresses.
+Unable to match requested speed 2000 kHz, using 1800 kHz
+Unable to match requested speed 2000 kHz, using 1800 kHz
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800196c msp: 0x20005978
+
+Breakpoint 1, main () at main.c:21
+halted: PC: 0x08024748
+halted: PC: 0x0802042a
+halted: PC: 0x0802042c
+halted: PC: 0x0802043a
+halted: PC: 0x0802043c
+halted: PC: 0x0802043e
+halted: PC: 0x08020440
+halted: PC: 0x08020442
+halted: PC: 0x08024600
+halted: PC: 0x08020448
+halted: PC: 0x0802044a
+halted: PC: 0x08020460
+halted: PC: 0x08020462
+halted: PC: 0x08020464
+halted: PC: 0x08022680
+ss_canboot_init (id=0x80, offset=0x8080000) at fse_pb_bsp/ss/src/ss_canboot.c:63
+halted: PC: 0x0802268c
+halted: PC: 0x0802268e
+halted: PC: 0x08022690
+halted: PC: 0x08022692
+$1 = 0xffffffff
+halted: PC: 0x08022694
+halted: PC: 0x08022696
+halted: PC: 0x08022698
+halted: PC: 0x0802269a

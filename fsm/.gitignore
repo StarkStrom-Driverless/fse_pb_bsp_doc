@@ -1,0 +1,9 @@
+*.d
+*.elf
+*.o
+*.map
+libopencm3
+*.bin
+*.signed.confirmed.bin
+
+.venv/
