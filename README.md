@@ -109,3 +109,5 @@ Type `./ss ` and you will get a overview of the functionality.
 [SPI](spi/README.md)
 
 [INPUT OBSERVATION](iob/README.md)
+
+[ETH RX](eth_rx/README.md)

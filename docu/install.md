@@ -3,6 +3,8 @@ This wont work for a Windof based system. You can try to use WSL2.
 Maybe you run into some trouble when it comes to flashing the software.
 So for that, the derived repositories which contains the actuall software for the controll-units should have a release which can be directly loaded into the controller via the st-link. 
 
+For Ubuntu
+
 ```
 sudo apt install binutils-arm-none-eabi gcc-arm-none-eabi
 sudo apt install gdb-multiarch
@@ -31,4 +33,21 @@ sudo cp /lib/udev/rules.d/60-openocd.rules /etc/udev/rules.d/
 sudo reboot
 
 sudo apt install can-utils
+```
+
+For Fedora
+```
+sudo dnf install arm-none-eabi-binutils-cs gdb openocd can-utils
+
+# create a sym link from gdb to arm-none-eabi-gdb 
+sudo ln -s gdb arm-none-eabi-gdb
+
+# Download this arm-gnu-toolchain-14.3.rel1-x86_64-arm-none-eabi.tar.xz on
+# https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads
+
+cd /opt
+sudo tar Jxvf ~/Downloads/arm-gnu-toolchain-14.3.rel1-x86_64-arm-none-eabi.tar.xz
+
+sudo cp /lib/udev/rules.d/60-openocd.rules /etc/udev/rules.d/
+
 ```
