@@ -113,3 +113,5 @@ Type `./ss ` and you will get a overview of the functionality.
 [ETH RX](eth_rx/README.md)
 
 [ETH TX](eth_tx/README.md)
+
+[PID CONTROLLER](pid/README.md)
