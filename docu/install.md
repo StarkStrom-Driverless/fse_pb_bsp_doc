@@ -37,16 +37,18 @@ sudo apt install can-utils
 
 For Fedora
 ```
-sudo dnf install arm-none-eabi-binutils-cs gdb openocd can-utils
+sudo dnf install arm-none-eabi-binutils-cs gdb openocd can-utils xz git make
 
 # create a sym link from gdb to arm-none-eabi-gdb 
 sudo ln -s gdb gdb-multiarch
 
-# Download this arm-gnu-toolchain-14.3.rel1-x86_64-arm-none-eabi.tar.xz on
+# Download this arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi.tar.xz on
 # https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads
 
 cd /opt
-sudo tar Jxvf ~/Downloads/arm-gnu-toolchain-14.3.rel1-x86_64-arm-none-eabi.tar.xz
+sudo tar Jxvf ~/Downloads/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi.tar.xz
+
+export PATH=$PATH:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin
 
 sudo cp /lib/udev/rules.d/60-openocd.rules /etc/udev/rules.d/
 
