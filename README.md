@@ -81,11 +81,7 @@ Type `./ss ` and you will get a overview of the functionality.
 
 [MAIN SCALITON](docu/main_scaliton.md)
 
-[CAN SEND](docu/can_send.md)
 
-[CAN FILTER](docu/can_filter.md)
-
-[CAN READ](docu/can_read.md)
 
 # Examples
 [BLINKY](blinky/README.md)
@@ -96,9 +92,9 @@ Type `./ss ` and you will get a overview of the functionality.
 
 [CAN_BOOT](can_boot/README.md)
 
-[READ CAN_MSGS](can_receive_std/README.md)
+[CAN READ](docu/can_read.md)
 
-[READ CAN_MSG_QUEUES](can_receive_queue/README.md)
+[CAN SEND](docu/can_send.md)
 
 [CAN TIMEOUT DETECTION](can_tod/README.md)
 
